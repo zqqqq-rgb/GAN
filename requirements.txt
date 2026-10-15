@@ -1,0 +1,26 @@
+# Core package versions observed on the experiment workstation.
+# Install torch/torchvision for the chosen CUDA platform before this file.
+torch==2.6.0
+torchvision==0.21.0
+ultralytics==8.4.129
+numpy==2.3.3
+scipy==1.15.3
+Pillow==12.3.0
+matplotlib==3.10.0
+pandas==2.3.3
+scikit-learn==1.6.1
+scikit-image==0.25.0
+opencv-python==4.13.0.92
+PyYAML==6.0.2
+lpips==0.1.4
+tqdm==4.67.1
+einops==0.8.2
+
+# OpenAI CLIP, not the unrelated PyPI package named "clip".
+clip @ git+https://github.com/openai/CLIP.git
+
+# FastGAN-style and post-hoc latent diffusion baselines.
+lightweight-gan==1.2.1
+diffusers==0.37.1
+transformers==5.5.0
+accelerate==1.13.0

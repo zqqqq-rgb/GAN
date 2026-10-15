@@ -1,0 +1,1814 @@
+{
+  "scope": "Existing numerical evidence; no training or statistical experiment rerun",
+  "code": "https://github.com/zqqqq-rgb/GAN",
+  "files": [
+    {
+      "path": "cable/q3_fixedq_statistics.json",
+      "sha256": "5ca8f0ce2568655f8448836d2541b0f7a577d0a4e7f32e482c3fabd7b917ddbe",
+      "bytes": 89607
+    },
+    {
+      "path": "cable/q3_fixedq_results.json",
+      "sha256": "88510aa1b10feb6a26900e340c46da7eea1a5a62e02d3f71c0ad21c64f9c0aad",
+      "bytes": 63704
+    },
+    {
+      "path": "cable/q3_fixedq_manifest.json",
+      "sha256": "3caa3276b36764c05ba445385857ebfdc70d69fb0f674e2cfb1e8a2ac592f482",
+      "bytes": 7829
+    },
+    {
+      "path": "cable/q3_generative_metrics.json",
+      "sha256": "84c27447aa1a34261b68dcd804d8d6f160077a1027ce6c290c6503845d86b56e",
+      "bytes": 28469
+    },
+    {
+      "path": "cable/q3_gan_seed_robustness.json",
+      "sha256": "161e681121133ff6220d6d3d0e4183a5335a9393a159433387d389c1d7f2c515",
+      "bytes": 15544
+    },
+    {
+      "path": "cable/q3_per_defect_type_results.json",
+      "sha256": "2cfe9b0fbcd85ee4572970abbcdd02fa8b022cf3a4f57181cc874a2e1fecfb79",
+      "bytes": 47765
+    },
+    {
+      "path": "cable/q3_per_defect_type_summary.json",
+      "sha256": "4724298a0ada15f531df4b0a3c6bb230f5b840203f7a6f87f6de9e82f9e185c3",
+      "bytes": 16460
+    },
+    {
+      "path": "cable/q3_condition_consistency.json",
+      "sha256": "b69791ddecf46db17ffec906fd202a823254a9d4de9ae56e18b033e02a5ec62a",
+      "bytes": 22705
+    },
+    {
+      "path": "cable/q3_image_bootstrap_statistics.json",
+      "sha256": "89a0df095dc1beff0213c08060f0f00c418f2a7e0654bcffa85f9e636b456508",
+      "bytes": 3603
+    },
+    {
+      "path": "cable/q3_image_bootstrap_predictions.json",
+      "sha256": "13cb3595d6350da8c0102c214ddbf8d8736954061c2e58b91f202bb3f8e8530d",
+      "bytes": 26173894
+    },
+    {
+      "path": "cable/q3_diffusion_multiseed_statistics.json",
+      "sha256": "c642f5a08f6894baa24acc1bee0aaa51eb04e7b845792431898a94ce5cff204f",
+      "bytes": 21316
+    },
+    {
+      "path": "cable/q3_q_sensitivity_statistics.json",
+      "sha256": "f108258ba0c8a8e51bd890b8dbdd9053b6c398050b0ffca86afb3abf685b975c",
+      "bytes": 2696
+    },
+    {
+      "path": "cable/q3_q_sensitivity_manifest.json",
+      "sha256": "42557eecb78a3c0b01af396f3d650711332b84b834ae2e299af1e709266495f9",
+      "bytes": 699
+    },
+    {
+      "path": "cable/q3_strict_last_protocol_audit.json",
+      "sha256": "c14acddb83fad56ee91574e86b9897374c3f579c307220dbc1cb841143731a8c",
+      "bytes": 305
+    },
+    {
+      "path": "cable/q3_real_annotation_audit.json",
+      "sha256": "e09b3372f050c765835fdee72ba2f06b4eddd1db1afdaca21a1af51c82bb9a70",
+      "bytes": 91807
+    },
+    {
+      "path": "neu_det/q3_neu_comparator_statistics.json",
+      "sha256": "e0ad9b5b15abb8350da5cbcbda4eeadeb98ceea9ea5b36fdeb1749499b04ff2f",
+      "bytes": 13567
+    },
+    {
+      "path": "neu_det/q3_neu_comparator_results.json",
+      "sha256": "8a1de56cd5fa47c45a21d700d160c3fd869f8b5470bba06d8b31865fb3e3c27b",
+      "bytes": 14154
+    },
+    {
+      "path": "neu_det/q3_neu_comparator_manifest.json",
+      "sha256": "6d3b0688a2bde8acfc7697afa75fd7a35d9467c7a97fc1324f70b314f6d1f94b",
+      "bytes": 1091
+    },
+    {
+      "path": "neu_det/q3_textproj_manifest.json",
+      "sha256": "e4ec6f15c0bef04576911b1c2f597eac9e9f91ca80d35c7621aaa3dd499850ea",
+      "bytes": 716
+    },
+    {
+      "path": "neu_det/q3_textproj_results.json",
+      "sha256": "e1549467e3aa4ace0b7237417c3f9e1e505e961477911d974f834a364baa97ca",
+      "bytes": 14167
+    },
+    {
+      "path": "gc10_det/gc10_phase1_statistics.json",
+      "sha256": "5b649e942e6283a3468256510fec196e8425ce2862517a55991f46259ca6471c",
+      "bytes": 684
+    },
+    {
+      "path": "gc10_det/gc10_phase1_results.json",
+      "sha256": "82a3f6117b900fac2f6bd3afeec62b96855f62ed796aa93be9eb9db97ecdf76a",
+      "bytes": 11563
+    },
+    {
+      "path": "gc10_det/gc10_copypaste_statistics.json",
+      "sha256": "2e649d991ec813a8c269e6621e33e689a6e9746be2f3ea0fef4f451e281e3a9a",
+      "bytes": 626
+    },
+    {
+      "path": "gc10_det/gc10_copypaste_results.json",
+      "sha256": "9991735027fc2242618ec74b2abe12041af53964d30d8e38c1751fc41d2d7627",
+      "bytes": 5551
+    },
+    {
+      "path": "gc10_det/gc10_textproj_mses_s42_q300_statistics.json",
+      "sha256": "d7044f2b41a7229ae7bf826666ff842a65afd467acecd0c29fa3432f860105ec",
+      "bytes": 1694
+    },
+    {
+      "path": "gc10_det/gc10_textproj_mses_s42_q300_results.json",
+      "sha256": "13d3bf730ec02a4b49f051ec0544b36a19366873d854d9cb3ed652ccaf724b27",
+      "bytes": 5584
+    },
+    {
+      "path": "gc10_det/gc10_textproj_mses_s42_q300_manifest.json",
+      "sha256": "940a769521dbddf2a394734a88ca2212604cfe8bab6e9763a0d917d2ec3cd76c",
+      "bytes": 31862
+    },
+    {
+      "path": "audits/figure8_integrity.json",
+      "sha256": "76957797ae668fab0841e00db12763e3702fa4b282aa759e2201ecab75566c89",
+      "bytes": 1626
+    },
+    {
+      "path": "audits/evidence_audit.json",
+      "sha256": "84028b7a57c583a7a78f107a259af5287c17703d4b3be78c40f595b7c30c524a",
+      "bytes": 6089
+    },
+    {
+      "path": "audits/annotation_review_addendum.json",
+      "sha256": "e2ca131849b4e15211c9d560c0b80b44749436dbb31e0f8ef59675f976ee4fb2",
+      "bytes": 792
+    },
+    {
+      "path": "gc10_det/gan_train_single_condition_manifest.json",
+      "sha256": "b6b60cb5888a5d0670b977fbd89b7c66bcd343b012cb6d3c43a1bb76102db13f",
+      "bytes": 312659
+    },
+    {
+      "path": "environment/requirements_recorded.txt",
+      "sha256": "7d0f4a8493e3094f78bda8d8f3c1c29afa98429b507e3ccdf684c9e51eda740a",
+      "bytes": 633
+    },
+    {
+      "path": "environment/release_manifest.json",
+      "sha256": "74ca9ba57a420c162bec53b2eed98865201d1bd6bd6eda48386f464c60b33900",
+      "bytes": 19784
+    },
+    {
+      "path": "figures/Fig8.svg",
+      "sha256": "8992c42980f8639fe7d3b9a1983a20c3acee30aaa23f57e62587fc401976607e",
+      "bytes": 13546
+    },
+    {
+      "path": "cable/content_hash_split.json",
+      "sha256": "0b137c769079036ae70e414380f956ea9499c7e1bb22309144a4d90794b06de8",
+      "bytes": 44009
+    },
+    {
+      "path": "audits/batchnorm_provenance_addendum.json",
+      "sha256": "ff820d7c1e5aa0de115be2a0cdd898afee7d537c9723671c0e1821c07bbcc89a",
+      "bytes": 1234
+    },
+    {
+      "path": "configurations/yolov8_det/runs_leakfix/yolov8n_baseline_lf/args.yaml",
+      "bytes": 1799,
+      "sha256": "152e72e185bd465dd08d1b2375aad5d84bb960d83611ce8c04d961c4db077ab2"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_leakfix/yolov8n_baseline_lf_s1/args.yaml",
+      "bytes": 1804,
+      "sha256": "2287261bb8c4c608670ae716ab814c05ca820c13d2c72691836a3a64130a14fd"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_leakfix/yolov8n_baseline_lf_s2/args.yaml",
+      "bytes": 1804,
+      "sha256": "cd0d2c724f46ba0b64beb882c7d4c3dc9b82e53186447b870f93b571d0bc9e78"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_leakfix/yolov8n_baseline_lf_s3/args.yaml",
+      "bytes": 1804,
+      "sha256": "641a13cd7373f9271cb80bed0224425d8a11e879830e15830b6e8ee6fd3827e0"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_leakfix/yolov8n_baseline_lf_s4/args.yaml",
+      "bytes": 1804,
+      "sha256": "b5c6f74daba3dd66f4d1a08bf2305a48589478a87bcc0e68e38de2ef7838b97e"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_leakfix/yolov8n_baseline_lf_s5/args.yaml",
+      "bytes": 1804,
+      "sha256": "af8f30a7e1c2e86e8c2f6ba0a9e09cc4c6a0f9925d49a626c1e638c538b920ce"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_leakfix/yolov8n_baseline_lf_s6/args.yaml",
+      "bytes": 1804,
+      "sha256": "c03860f8528ef247a7bb6d83836b3886c78d08e54758d744b21d8e00c8b9571e"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_leakfix/yolov8n_baseline_lf_s7/args.yaml",
+      "bytes": 1804,
+      "sha256": "7c20efb1911fb6362d689a66a44418bcb3c7d6a1e9c7e661dadebab88442927f"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_leakfix/yolov8n_baseline_lf_s8/args.yaml",
+      "bytes": 1804,
+      "sha256": "211884475f3f8d99870e9ad9c669085d167f51d7add8e775f198a2b2bc443640"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_leakfix/yolov8n_baseline_lf_s9/args.yaml",
+      "bytes": 1804,
+      "sha256": "f14468051d147ba15079e04a4995f79cd3402e5a5cfc81d12eef21399a311de4"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_baseline_stepmatched_s1/args.yaml",
+      "bytes": 1837,
+      "sha256": "ae521916eb5f621b7094d9436f4695df0c19650dafa9082936d9150fcefcc3d8"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_baseline_stepmatched_s2/args.yaml",
+      "bytes": 1837,
+      "sha256": "ce3ea51e6c98b962ff17c7ae0635b90fd66af8804828e3bed9d99f115967b95f"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_baseline_stepmatched_s3/args.yaml",
+      "bytes": 1837,
+      "sha256": "1e1a6e62616b5f8cc7664b106becc32716cfd910fb8b2e03fb7e2ffc37616ee6"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_baseline_stepmatched_s4/args.yaml",
+      "bytes": 1837,
+      "sha256": "50cf1e678a46c98b5b4305c41ab30de628f4121aef3d040cb2411acb709ca3f2"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_baseline_stepmatched_s42/args.yaml",
+      "bytes": 1840,
+      "sha256": "c8ac14d2cd549d42fbe023672f685f77338ac382260dcf53932819e43810bbc1"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_baseline_stepmatched_s5/args.yaml",
+      "bytes": 1837,
+      "sha256": "ce8f8e58037f95c7203a58f6c8c7c715d12b06b603d53424edbbff69dfcd4800"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_baseline_stepmatched_s6/args.yaml",
+      "bytes": 1837,
+      "sha256": "8c0b842cb59a2c24e226bf2da1f079b2efd2815cd8d10a47b57368b709ac9328"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_baseline_stepmatched_s7/args.yaml",
+      "bytes": 1837,
+      "sha256": "2692e69899279e4e294128dca543200f5a60a85cc78bd0028f2a1ca6934ffdd9"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_baseline_stepmatched_s8/args.yaml",
+      "bytes": 1837,
+      "sha256": "b0e03a5be3fdf8ed296c7242da0ad22775b5f7344491daa88f2f40ffc2d6d5a5"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_baseline_stepmatched_s9/args.yaml",
+      "bytes": 1837,
+      "sha256": "45739780075cdc07ee528628ce4c545440c1ad93618e626ab9af5eacf70eb88e"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_copypaste_s1/args.yaml",
+      "bytes": 1804,
+      "sha256": "7d86bf2bddd83cec2f4d9c5d79a5faf91c5ff7e2912c64f368ebad512f0e7092"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_copypaste_s2/args.yaml",
+      "bytes": 1804,
+      "sha256": "68f4571a3440998107c1fa843bc9eb65adcde9dadc6f292e2af42fa9ae01a235"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_copypaste_s3/args.yaml",
+      "bytes": 1804,
+      "sha256": "295049867928cf86a18986c8a0a55f1c583a61eda2cd0b373d10737bed8876b6"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_copypaste_s4/args.yaml",
+      "bytes": 1804,
+      "sha256": "08aacb435eac15751c2ddcad6701ac413ffa345c59b027b37757acd362be0099"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_copypaste_s42/args.yaml",
+      "bytes": 1807,
+      "sha256": "860c2fc998969935ce483cd8a48dd3b39b668515998c1359af12a2770f1ca788"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_copypaste_s5/args.yaml",
+      "bytes": 1804,
+      "sha256": "e93d407292f5a78ca342521b32d2f794762febca2792cbc6c7aae87ebadcdfb1"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_copypaste_s6/args.yaml",
+      "bytes": 1804,
+      "sha256": "9bba67ba2922793ad87acece3b59408fb4ac921fa3b8a26f76b57d49db010e33"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_copypaste_s7/args.yaml",
+      "bytes": 1804,
+      "sha256": "f9a99d0d1feaed20048bdcb4988bd7f193d1ddf471eb68f5bc9ebf64c803958c"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_copypaste_s8/args.yaml",
+      "bytes": 1804,
+      "sha256": "eee73df022db52f592ac7d3ea6f254fb300bed069fc26cc6f751386b44555f75"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_copypaste_s9/args.yaml",
+      "bytes": 1804,
+      "sha256": "5a2a8e9a3805472701f674f254b2b70d6711bff1826253cc54364a27426015e5"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_gs1_s1/args.yaml",
+      "bytes": 1828,
+      "sha256": "37b44e317f630a762e51cd12733c0116fbf1cb5a0683d6ae620e82b75d71b16b"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_gs1_s2/args.yaml",
+      "bytes": 1828,
+      "sha256": "f2e6a88940eed8febff65a3de880882a63769c18629693e4c4ae3b34404bc214"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_gs1_s3/args.yaml",
+      "bytes": 1828,
+      "sha256": "eaa1fcc5506a56660cef056f025b7230fe415856025131d5f97eea602b5926e5"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_gs1_s4/args.yaml",
+      "bytes": 1828,
+      "sha256": "19081ef05e483f789f681df46743b7756b79c4f17d6bbda25fea41951c661ae4"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_gs1_s42/args.yaml",
+      "bytes": 1831,
+      "sha256": "fddc356aa0a2f88edf016cd930202d573bf2403376f1ab6cbec9d1230d9bef6c"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_gs1_s5/args.yaml",
+      "bytes": 1828,
+      "sha256": "037f6ec31bb6ccefaf668e03b3f5939e6e1de010969d503cad8d5775a9173903"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_gs1_s6/args.yaml",
+      "bytes": 1828,
+      "sha256": "023cd34c71cebc704a6269f707b9a719fdc02412a31de3bc1d3f35a08479bf30"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_gs1_s7/args.yaml",
+      "bytes": 1828,
+      "sha256": "c46dae8dd84ca02232aab840dec473407361dad20f02dbe70fd2c53683ca37c3"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_gs1_s8/args.yaml",
+      "bytes": 1828,
+      "sha256": "63daf3bce60879c57dd92acb202ee371547c58d640ce2aea4b0b7c43f3ada462"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_gs1_s9/args.yaml",
+      "bytes": 1828,
+      "sha256": "6829d8aa51989c8593519f5b9e976b015691f68fe39a575e654e74901a072d63"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_gs2_s1/args.yaml",
+      "bytes": 1828,
+      "sha256": "9ba2d7cc1841fee9db309b9b59fe166edce6914ca9ce232adb9b9bad56938c9c"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_gs2_s2/args.yaml",
+      "bytes": 1828,
+      "sha256": "09a912503e2fc845d8e59879d5e888180a0e6cef863cdd4fa5b74f33f3afef6c"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_gs2_s3/args.yaml",
+      "bytes": 1828,
+      "sha256": "c2704bf532fc9230929380eea827a1edb4251a80ba046e2b74da57988ffba278"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_gs2_s4/args.yaml",
+      "bytes": 1828,
+      "sha256": "83f7554cdcfdfcf6561684e7bcf3dd645b2ef59ffc45ee1c0dc19f740d730255"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_gs2_s42/args.yaml",
+      "bytes": 1831,
+      "sha256": "ae57e84bfaa9bb80d95a13823d49d61a19038ed0e74011809edc5ce9b5adaa8e"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_gs2_s5/args.yaml",
+      "bytes": 1828,
+      "sha256": "214a386e97bf13c4b0e38d33ea97d1b9d75c996749d15f14000506fee891be14"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_gs2_s6/args.yaml",
+      "bytes": 1828,
+      "sha256": "682e3aa23497e9ba490fc4f0c9a55f6446f7dd6de42f569497fb5505836a63a2"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_gs2_s7/args.yaml",
+      "bytes": 1828,
+      "sha256": "9f438e09d43a455385474ca576dc7d6039734347c49990a1c148cd146c87cb65"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_gs2_s8/args.yaml",
+      "bytes": 1828,
+      "sha256": "68474d89be75b95197306480395bb26359eb9abb2bccfc84563e824dadc21e4b"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_gs2_s9/args.yaml",
+      "bytes": 1828,
+      "sha256": "c4c0ed05e365f8273d4d20a3e1be5e35482a8fa292efe1e19cdf10bf9e6f2202"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_s1/args.yaml",
+      "bytes": 1816,
+      "sha256": "d4694c816170d0ff1579d29c32b6c5f8b92d0a2558a017420b6d76addef8efde"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_s2/args.yaml",
+      "bytes": 1816,
+      "sha256": "335f583c2beafb4d45f7814a8d8f8b0ea28d1f5065141ba4da270de3ce921c7a"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_s3/args.yaml",
+      "bytes": 1816,
+      "sha256": "daa1a830f0e465739283af5243baf90408d83c8e0a5bd3842196531cb0fa0f8b"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_s4/args.yaml",
+      "bytes": 1816,
+      "sha256": "403dd91c50a670133bca69717faabae2da283bff6c9efd2efe0963f281feee4b"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_s42/args.yaml",
+      "bytes": 1819,
+      "sha256": "be1b5fc74cd96b4adcc24cda0e13907f915784868b94391b3b470a0d46d4b2e6"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_s5/args.yaml",
+      "bytes": 1816,
+      "sha256": "33944a5e4eb60d5df24b8549acecdd78f752971ab10c19edba06c670511d3112"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_s6/args.yaml",
+      "bytes": 1816,
+      "sha256": "83eb24738875309a36c764942a5acf63972078a9f442fd38f11e6b81b9d80216"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_s7/args.yaml",
+      "bytes": 1816,
+      "sha256": "f85c3bd5bb95da1558099cfe895d45dd847adf4a3a0eda4c3cd188bbe4067809"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_s8/args.yaml",
+      "bytes": 1816,
+      "sha256": "86e7ac4f00da48c47a7a503821607a9f99fe43e5b8a1bb2ff0ca203ace7f946d"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_Diffusion_LDM_s9/args.yaml",
+      "bytes": 1816,
+      "sha256": "b1d8a564aa73d570dd7a3f6ac2917bc494013e20b6e848c5b0cf1c2184c377c3"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E5_tradit_s1/args.yaml",
+      "bytes": 1804,
+      "sha256": "bea5d3124f9d015f0828d2131bf58d604b61ea526315c728583dffa0c237856b"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E5_tradit_s2/args.yaml",
+      "bytes": 1804,
+      "sha256": "d790b29168a3c950e469ee27de97cfabdccd705a71b9e7c102a9e80c03207e43"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E5_tradit_s3/args.yaml",
+      "bytes": 1804,
+      "sha256": "4827f585f4da80d3a5482ed2f66fb60ac30deb7083d9da5ca2e39c6ff2b477fe"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E5_tradit_s4/args.yaml",
+      "bytes": 1804,
+      "sha256": "ecc0c180d11ff609511aea32f3ccefb17aeafb00404f3ea38fbd04bec0daa613"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E5_tradit_s42/args.yaml",
+      "bytes": 1807,
+      "sha256": "687a4a1ec651a1d499ee7f23ddf3ba67c8f3465c92e6729389844f092abdfe92"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E5_tradit_s5/args.yaml",
+      "bytes": 1804,
+      "sha256": "801d38e53c1c433fa40d571847f6f7ec6d0c03e16ef063be34fe64dd5d03bd25"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E5_tradit_s6/args.yaml",
+      "bytes": 1804,
+      "sha256": "8f943ff98ab2b1f211341cb70635a20f4ad608180037f2e93ad26c5eb5244856"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E5_tradit_s7/args.yaml",
+      "bytes": 1804,
+      "sha256": "0ced98623a08bf608c6c4a48c11097c899e14ff695407abcef4fa0f13df47e3e"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E5_tradit_s8/args.yaml",
+      "bytes": 1804,
+      "sha256": "d4251972a034451f9b3bfdbc45105b69213f9fb3681d4131a561280e500b9696"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E5_tradit_s9/args.yaml",
+      "bytes": 1804,
+      "sha256": "2a85e107041707fb476968dc6710f78e0779d4b795b11f10e014d146dc75851f"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s1/args.yaml",
+      "bytes": 1825,
+      "sha256": "3e8058dbb4c74ad6196677df5967139a06fd64801124dd077b26c40907f96ee5"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s1_s1/args.yaml",
+      "bytes": 1834,
+      "sha256": "98f6ca8cffb6d74b60363877ff2f6e82281ff950a051bfe6b484b9f5777d0c19"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s1_s2/args.yaml",
+      "bytes": 1834,
+      "sha256": "c85e26916e67ed648f42ace7aac9c09cbff111ebf6e54ffa5e9bb7baa65b45ae"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s1_s3/args.yaml",
+      "bytes": 1834,
+      "sha256": "c5e7c4cdbc1bf13962064b742b83327dd9e1dd6ce11bb463a41bf3200a64a2df"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s1_s4/args.yaml",
+      "bytes": 1834,
+      "sha256": "51f8f7dcd5e2814b6ff203118cd4fa01ce4e6c96ea048edb180898c77cdcb9b9"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s1_s42/args.yaml",
+      "bytes": 1837,
+      "sha256": "fd104405ffdc02f195067d367244352b53f925790efcb6494ae7b697f5ac2cb2"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s1_s5/args.yaml",
+      "bytes": 1834,
+      "sha256": "1f90ee693b855e4abd7e37a0d9d660a54ab01a00956d7c879bf789b0f01b724e"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s1_s6/args.yaml",
+      "bytes": 1834,
+      "sha256": "dbf6cad1b662419d201c8f1c66c05610fb92396fec3ef9d683a7f48c7eb5d002"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s1_s7/args.yaml",
+      "bytes": 1834,
+      "sha256": "6ab2734eb67b6097e11a9604dce9dbd9bad2c1a5f9d21102a9db3637fef64559"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s1_s8/args.yaml",
+      "bytes": 1834,
+      "sha256": "e7e218cd0e7f7885690fde7912cd04ef2d17dc702199194c6e2c5e4f4337b724"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s1_s9/args.yaml",
+      "bytes": 1834,
+      "sha256": "824f0aec545351167be1ca63d3f645cab9307603bd0fde10022773f559a37d02"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s2/args.yaml",
+      "bytes": 1825,
+      "sha256": "1da409e257a16e86a7f74ae3ae7433b19ee1df43dc306fefdb284fb16dd534a9"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s2_s1/args.yaml",
+      "bytes": 1834,
+      "sha256": "6db2169a0b85d12158daf7eb6d8015785d2b3bb419b9fd7bfe23079e9db21155"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s2_s2/args.yaml",
+      "bytes": 1834,
+      "sha256": "2188dcff38a3900b51000bb90394f046ee2a2b99ed2c27cf485e4256a8fe4501"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s2_s3/args.yaml",
+      "bytes": 1834,
+      "sha256": "33e31fb06cc322fe854908ad9f0bfd51465c554e561195d7c2975ea02a7b8382"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s2_s4/args.yaml",
+      "bytes": 1834,
+      "sha256": "c4d5bc7d01998589eb1162a7e00d2aa346e0829912dfee2a99f89d05da439e30"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s2_s42/args.yaml",
+      "bytes": 1837,
+      "sha256": "b4ae7679fe7e523663b5e6d3b4a70b6075e654539f4923ac9c56309158dc002b"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s2_s5/args.yaml",
+      "bytes": 1834,
+      "sha256": "d9745c856e7a62b4dee407b90d27be5570c6357ba20d09553e5c4320367b4f0d"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s2_s6/args.yaml",
+      "bytes": 1834,
+      "sha256": "64d5cf394ff24c00e208403d66e8185a4d1b22d946556dabcdfef91f1345c972"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s2_s7/args.yaml",
+      "bytes": 1834,
+      "sha256": "77de72356f23be795ee04656ad1720c48da3960c68d06dae8ccf9d72cd625635"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s2_s8/args.yaml",
+      "bytes": 1834,
+      "sha256": "2bdb75877e51de69102dccc1c03e74227bcb28b709ad15e7794f1af3f22512ab"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s2_s9/args.yaml",
+      "bytes": 1834,
+      "sha256": "6fe95c25f87777a3015c3bef85ea01ce7be1e17cabed77f7d8957d11f163c3b8"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s3/args.yaml",
+      "bytes": 1825,
+      "sha256": "987634428db5e756ad12b7641a8eed7adf90c2dfc0158a7d2978736c7f47eccd"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s4/args.yaml",
+      "bytes": 1825,
+      "sha256": "6168ec0e2a5a6a714c03feddac5d0d0a8b4fb5ca42c7425c9ca20e6f2acb5aba"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s42/args.yaml",
+      "bytes": 1828,
+      "sha256": "428cfb1b3dcfce84f9e0a41a7fec0feee7ec6574a43a162206c02cb9b184a862"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s5/args.yaml",
+      "bytes": 1825,
+      "sha256": "d1d406ada36381c6c9bfd7462cab8a6584a12b935aa3343230bd29651d9e267d"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s6/args.yaml",
+      "bytes": 1825,
+      "sha256": "d1171bb68267a9577ed6a574c5fdad9d020ad52d37b939c7c5877c68014a14d9"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s7/args.yaml",
+      "bytes": 1825,
+      "sha256": "1a8e4221101da3f2c35dbe236dc70ad2cef7d046bc35cad76272587562cbcb10"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s8/args.yaml",
+      "bytes": 1825,
+      "sha256": "f0a83500571d9a768f862b4fd76c696ae1e9ae80590ea9985585afe9d353a79e"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_nosp_s9/args.yaml",
+      "bytes": 1825,
+      "sha256": "4f51a621ec8ad69e7a059791a0cffdcf73fd78949b3a7d3d68c4a49163d66327"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_sp_s1/args.yaml",
+      "bytes": 1819,
+      "sha256": "f3d6c212562e7c153be1076dfd4fe642d2a3858130b311a2188c297a3d6f3a0e"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_sp_s2/args.yaml",
+      "bytes": 1819,
+      "sha256": "aee18d638b8283ad589b2d32a90b70975d9b3cb4088bcf3bd18bab0b71a2d69b"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_sp_s3/args.yaml",
+      "bytes": 1819,
+      "sha256": "5fddef5346b6033ae0c50f7455b17b07cdca50c63732b2e57ccdd5c8d8905654"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_sp_s4/args.yaml",
+      "bytes": 1819,
+      "sha256": "e5a2845eef96d80e59c890ae652e659376a49c3563cda2066296681fe396f2c9"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_sp_s42/args.yaml",
+      "bytes": 1822,
+      "sha256": "30f44f0f9b4b835570eaec6d7d6ba14eb979641827216435920e6782da320dd9"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_sp_s5/args.yaml",
+      "bytes": 1819,
+      "sha256": "273d7354a0c23b8175ebdcb82011f4be02dfbe27d526faeab420fba7c285b157"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_sp_s6/args.yaml",
+      "bytes": 1819,
+      "sha256": "77ec857f52c0d9eeb428abc9ca1b29cd81790a50e949b06bb69d78869b4cce6c"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_sp_s7/args.yaml",
+      "bytes": 1819,
+      "sha256": "b1b76d68eae9e8df84e88254b4d9f41fca3568533e177078957114ca6c057434"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_sp_s8/args.yaml",
+      "bytes": 1819,
+      "sha256": "eae4f89b650d27de94529a17fff5f2d1e82bf27cc6c7ec7be6d709e61de79995"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E6proj_mses_sp_s9/args.yaml",
+      "bytes": 1819,
+      "sha256": "a579c113e9b2c71b3cbfd07d79744bad61acd72e622dc0353ac3255af4ed7559"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s1/args.yaml",
+      "bytes": 1825,
+      "sha256": "6c492530b2c43269dd7e7bb8f6b16332106d773bf9bc3c108199490ba39b86e4"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s1_s1/args.yaml",
+      "bytes": 1834,
+      "sha256": "43c6fb2ee25e1c2b9a3d1528025c57ab7c89ba1fa743c78d47f48d5f086a5de5"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s1_s2/args.yaml",
+      "bytes": 1834,
+      "sha256": "d31867dd33013c3f66fb8c4ba8046124adaf1d8d5640037c9a60e1d99cd2e228"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s1_s3/args.yaml",
+      "bytes": 1834,
+      "sha256": "129e38e1d90273f4b23441f2b330cab1fbc8825bbf98988e54e1b59d1f2344b4"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s1_s4/args.yaml",
+      "bytes": 1834,
+      "sha256": "6ce40bd862538535cd9c5b5f79d27b1bfd89727fa57ab52c3587b5d68566fc7b"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s1_s42/args.yaml",
+      "bytes": 1837,
+      "sha256": "38509dcb413ee961ab1296d65e3b1aa50bb3b28c44aeea091599b945ce72fa11"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s1_s5/args.yaml",
+      "bytes": 1834,
+      "sha256": "b4cce78ab1c769449b00e3e9b607cfb74d88759bdc752f72da1bdf6faa048318"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s1_s6/args.yaml",
+      "bytes": 1834,
+      "sha256": "2b8700e86445e6e4d9d27c919e71143b52a74e9ef3520232d79e549702d0cf13"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s1_s7/args.yaml",
+      "bytes": 1834,
+      "sha256": "33542fdeffcf73755a4406bdb4d08f273b12feb1b337aa67c4450c56e2518c9d"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s1_s8/args.yaml",
+      "bytes": 1834,
+      "sha256": "61e75f5f6314c7435dd2a9180df42e2404906be984c85011e792666740a34008"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s1_s9/args.yaml",
+      "bytes": 1834,
+      "sha256": "3a02081db97b5bed629ebd0342c72cbf7b4686b1eb0efc61e3b9cd9886e594d3"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s2/args.yaml",
+      "bytes": 1825,
+      "sha256": "d9c87dfe441dc11a34008e29ee8ea226e9766426366e15a0ea5c586098b1dcfc"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s2_s1/args.yaml",
+      "bytes": 1834,
+      "sha256": "8c17e6eebcc45fcac867baf9651d40238b5800fb89d16d6b53c18bbc75bbbea4"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s2_s2/args.yaml",
+      "bytes": 1834,
+      "sha256": "2b4f4c050f223b11ef5cf7e345b09e10804193c9782242fa0a9d45ef0fde8b8f"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s2_s3/args.yaml",
+      "bytes": 1834,
+      "sha256": "0db7d78b2aea0f6489426c9e5835dafea48220efae909e33a0aae014304e148d"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s2_s4/args.yaml",
+      "bytes": 1834,
+      "sha256": "859a27436e2001e2c486b43e06b5c1ee838f83e97d7e6e83026b96cbb7cd624d"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s2_s42/args.yaml",
+      "bytes": 1837,
+      "sha256": "5d55b7100d1ee1236a9b9734043e712ce6b1796b0cc5be4de6c0d0c305cd2bfb"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s2_s5/args.yaml",
+      "bytes": 1834,
+      "sha256": "e2f5a3104c9b1548baecc6340edb21d172ec27f7e021440c859cac953ccc3649"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s2_s6/args.yaml",
+      "bytes": 1834,
+      "sha256": "502d7e84c1586c8c64a8f8577ef0fbd022bf4ea5f897a8af982a735a2c844ea8"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s2_s7/args.yaml",
+      "bytes": 1834,
+      "sha256": "d3548c442c5e3f55779aa252abb67e0c0db6ac16b90e76de1007998f58180ebc"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s2_s8/args.yaml",
+      "bytes": 1834,
+      "sha256": "a54beb0e3f43e044cee64e59af0c41297cf806b26c3fec6f929b482e51d2c4a9"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s2_s9/args.yaml",
+      "bytes": 1834,
+      "sha256": "c4f3e38dd873434f2675e44e6c43ea1e8f2107678295ceed6487a693f533c199"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s3/args.yaml",
+      "bytes": 1825,
+      "sha256": "c861a4cc23fbaad10c119b70baf609a7c192c5cbddfa6e033dd2eb671a88fffd"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s4/args.yaml",
+      "bytes": 1825,
+      "sha256": "20aba0d7caf7da7a329c2dc8b8ea164fe004fe524ed5b88145516298576e9a9c"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s42/args.yaml",
+      "bytes": 1828,
+      "sha256": "6e19c185968dd99b1bdd49c890b2e6f51baa3bef4037257416ad9e6c5f76affb"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s5/args.yaml",
+      "bytes": 1825,
+      "sha256": "723a9f328f49287a73d2fa091cd677e201370c618ec248a826fd6026cc402fbc"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s6/args.yaml",
+      "bytes": 1825,
+      "sha256": "ce15e1107033c07554aa62edc85b7c90c0f09e914b2910d29e3f375bda62a263"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s7/args.yaml",
+      "bytes": 1825,
+      "sha256": "6bda31b8adafdf95213e555fe5a608a9f4863adfc69f42a3f5f07e33cff4d021"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s8/args.yaml",
+      "bytes": 1825,
+      "sha256": "1b9c2be377cf0431b73c34d09b24919eaaec59e8539f8c4e4c9d408017e8615f"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_nosp_s9/args.yaml",
+      "bytes": 1825,
+      "sha256": "f5166f594501d86fbf85d563c84029fa9497456bde59fbdb60dfa8857a594e6e"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s1/args.yaml",
+      "bytes": 1819,
+      "sha256": "5c16fbc5d2ed9fccc2246e6d6079b03694084db566a0c17ec880b8ac0be510bd"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s1_s1/args.yaml",
+      "bytes": 1828,
+      "sha256": "6cd84b3aad390aa5528ba1daa0632494a39f10f63fd203953dbdfa8197899874"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s1_s2/args.yaml",
+      "bytes": 1828,
+      "sha256": "1a6dec8e573c4b73ddad90c895bb21e02c895bb73094de06e7fbc87ec92f55d1"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s1_s3/args.yaml",
+      "bytes": 1828,
+      "sha256": "8a4cdc12eae69dee5bcd53de40cbcf10ebda9dae9b5765fc58f640ba3c1ba448"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s1_s4/args.yaml",
+      "bytes": 1828,
+      "sha256": "bbb3628d8903c30267e07e215dab54939e51df59c493c1139ad4c1ea0b1d92da"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s1_s42/args.yaml",
+      "bytes": 1831,
+      "sha256": "669c19a3d76e94217b3dcfc2c831b4f6cad446971ef41455a3bd3ba9e9bd4243"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s1_s5/args.yaml",
+      "bytes": 1828,
+      "sha256": "43b7b1c53d819a416c3cf627952c8d8b3f5927ee490460afa11965b39f9664c5"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s1_s6/args.yaml",
+      "bytes": 1828,
+      "sha256": "c69fc43497f2a7d72026dd7cac7df8ec0fe7bbf9712715a0172a58e7b204e98e"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s1_s7/args.yaml",
+      "bytes": 1828,
+      "sha256": "57289a295c38eba0f53e7d0f062d9812842d5489eab6b949cf14fba328d97741"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s1_s8/args.yaml",
+      "bytes": 1828,
+      "sha256": "acb60ae551836a374771d25e49377afb8c4666df8d9f501e7ad8370e3bd42f6b"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s1_s9/args.yaml",
+      "bytes": 1828,
+      "sha256": "a038d362e4e481a8a40205f1cb2078c1874f15763aae360148481eff0320b0b8"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s2/args.yaml",
+      "bytes": 1819,
+      "sha256": "3d064c58cd53181c99fb22db3cbc87c352ff8ac0a51ac2940e97ea2ccb24b61c"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s2_s1/args.yaml",
+      "bytes": 1828,
+      "sha256": "b16f22456ed86631dce55d3d4ef5c28aedd214b809dcf946418e38a08238eec4"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s2_s2/args.yaml",
+      "bytes": 1828,
+      "sha256": "843f543efc14571779c9206875451ced711c8a479c99fa868b2bb4ac62871220"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s2_s3/args.yaml",
+      "bytes": 1828,
+      "sha256": "bc4d0f1814f61c631716457bb85b205ccef73799fdaba7db2e31f18f0aa18068"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s2_s4/args.yaml",
+      "bytes": 1828,
+      "sha256": "1a4f02bac85992177a1ca1553b16cd8a41fd6b9b998f7272e2674012b6b2a9bd"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s2_s42/args.yaml",
+      "bytes": 1831,
+      "sha256": "55dac8b74c6ed37b6f15557132a80db1eff248e605315eda7671de6551c5a53b"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s2_s5/args.yaml",
+      "bytes": 1828,
+      "sha256": "f5b1dc60dc8cf284335d94e280aeba12c9b154e14900456b2af0be2676eb6292"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s2_s6/args.yaml",
+      "bytes": 1828,
+      "sha256": "05f2878da46c6499e23f14f047978c98d2c85c1b8b4432d3c5be0d304c190800"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s2_s7/args.yaml",
+      "bytes": 1828,
+      "sha256": "1e33830495b7621724d19f06603754cafab8cfc0e9e89f9fc3f854e4f3a75538"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s2_s8/args.yaml",
+      "bytes": 1828,
+      "sha256": "43371db8dacf34944b8c4a48643df9fd4a69e84925fa358ab1b2cf79e8f37747"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s2_s9/args.yaml",
+      "bytes": 1828,
+      "sha256": "e277b8ee1f24b15e4c71e5d36667b84c0cf1e5a7f6781ef3fb1d5d2e8ffc50e7"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s3/args.yaml",
+      "bytes": 1819,
+      "sha256": "dbbfd81b4f8f037d18c45c7b1d5e32ae70cdcfb76be9c8fde2faa03229ae1f2b"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s4/args.yaml",
+      "bytes": 1819,
+      "sha256": "ff6f9e7129b82db22c640a5ffaaa2346ab3b5d48d90fb426402ac0326c5d4b23"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s42/args.yaml",
+      "bytes": 1822,
+      "sha256": "1f4bdb32337a83a61903bbedd6c5a4777b509a3418a3c9990ae66f941cbf4492"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s5/args.yaml",
+      "bytes": 1819,
+      "sha256": "fcb6a31e6321d6b575ba2f62e568212034e53c19c2b9caa7ffb167930f515e9e"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s6/args.yaml",
+      "bytes": 1819,
+      "sha256": "a1948d026ad17cb115e093a936e4112e0211d16b453b9d97777099686a4385f5"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s7/args.yaml",
+      "bytes": 1819,
+      "sha256": "960175a9f8e93e46fd9c9100a79c4e66c0303dee8d10a866c8ede087d6cbfe5e"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s8/args.yaml",
+      "bytes": 1819,
+      "sha256": "7cfb14db6aaf8e288c7c1487702e3aebb93d4dbcb9a9daf1af0c64ed05db50a5"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_E7proj_mses_sp_s9/args.yaml",
+      "bytes": 1819,
+      "sha256": "8a237f3629830fa63b7a6baf7c4e3dad3749a96c673a9e1df46668ebbe3afa77"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_FastGAN_s1/args.yaml",
+      "bytes": 1798,
+      "sha256": "bb3bc9813db3773e0a38d2cf2074f37466ceba2a8814cb510fdd59373c5cd552"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_FastGAN_s2/args.yaml",
+      "bytes": 1798,
+      "sha256": "b5de200b256ef81663e4aee0ce6d2a5a23760ae05f8222d88dc8e5a651652c4b"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_FastGAN_s3/args.yaml",
+      "bytes": 1798,
+      "sha256": "f43382fcb36843968edbe68cfe712b0d17640a5d0c93ef70ab4a07628136b273"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_FastGAN_s4/args.yaml",
+      "bytes": 1798,
+      "sha256": "78dc3081342d59ebcbb3e042839d507d73ff986e8f1ba8cdbe3eb1472df26ad9"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_FastGAN_s42/args.yaml",
+      "bytes": 1801,
+      "sha256": "c30de16ff5b8a7b9d8674a7b80c0d54a3b7ac4be2f419e4ceeb24779b47e20fc"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_FastGAN_s5/args.yaml",
+      "bytes": 1798,
+      "sha256": "31bc063760e86fd9d0752431ee78d81678d57a70ec7a5fbabbce23811fefcac3"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_FastGAN_s6/args.yaml",
+      "bytes": 1798,
+      "sha256": "36c4d16bacbf65e136dcc4badd92db57cea7df16d3354e1b5b894df608251b0f"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_FastGAN_s7/args.yaml",
+      "bytes": 1798,
+      "sha256": "55964dd04ceadc34d604e69842ff25bbaa8bf4ea23ec563c8f5354d7906e7dde"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_FastGAN_s8/args.yaml",
+      "bytes": 1798,
+      "sha256": "86f228bc656441d42f0108b4450efbee4ab2f96d77577bde139920d699808f23"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_fixedq/q300_FastGAN_s9/args.yaml",
+      "bytes": 1798,
+      "sha256": "5525f245c93fb9536e7e2d74562880293295ec5928ca1270e8d9d011e9318fb6"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q100_s1/args.yaml",
+      "bytes": 1811,
+      "sha256": "147150fb441368fb043abf8d7a6077f814c54c0484a850dcac9e0ef96fa732e5"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q100_s2/args.yaml",
+      "bytes": 1811,
+      "sha256": "c2f17c87a93aba041978f738d8f2b011c602572bc93b97ba3d74c058eb092dbf"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q100_s3/args.yaml",
+      "bytes": 1811,
+      "sha256": "73273c479b921ab77a13cef20a4ed2cb61d6f173acdd0cdee5e312c1fc897136"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q100_s4/args.yaml",
+      "bytes": 1811,
+      "sha256": "29e4b7aa0f3e6e18429ea69cf18009d3951e88a84eeb7857ca3841adee8628f6"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q100_s42/args.yaml",
+      "bytes": 1814,
+      "sha256": "7ab59f01fe1990533863cecc942a5d92e0f9dade61b75186a1bb40dd4c2d5544"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q100_s5/args.yaml",
+      "bytes": 1811,
+      "sha256": "208a980445319a8325dae44f2a30b712b5d0911d2a3ca314742f96f69009a876"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q100_s6/args.yaml",
+      "bytes": 1811,
+      "sha256": "1d81eb6455a659230e156691c541c1a570f2bfee0b2bac5f38d5b6f582973cbb"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q100_s7/args.yaml",
+      "bytes": 1811,
+      "sha256": "73cf4e2e13a63b2ffd5ca47b80221c24a6cf5f97a7004175d2ade134ae973545"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q100_s8/args.yaml",
+      "bytes": 1811,
+      "sha256": "c11e628c8cebe4666e1c9b7ccb46de6f368aa328952daa1e4e92345edc63545a"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q100_s9/args.yaml",
+      "bytes": 1811,
+      "sha256": "fac4efb453e76f7e666aefd23d34da10642596c0041c4b12f2132ecbe8be724f"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q200_s1/args.yaml",
+      "bytes": 1811,
+      "sha256": "0c7053bb7214d61f6e4281a4b696fd7f660b9fdbcfde705e2f90f0163de0495b"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q200_s2/args.yaml",
+      "bytes": 1811,
+      "sha256": "18978e77774f82ad134aee863300ab17fa48ed5c91dcbe8aabf52bb24c025184"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q200_s3/args.yaml",
+      "bytes": 1811,
+      "sha256": "a9261419b654507f522d002dd07d0d1e78ad6794d38c156e91c0f7a3446b5151"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q200_s4/args.yaml",
+      "bytes": 1811,
+      "sha256": "02434e6ef46757f2bb07dd9ddbf126acde79189a5f7f354a0e0bf8a25b2feede"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q200_s42/args.yaml",
+      "bytes": 1814,
+      "sha256": "9a037cd63a6dd8db335563943c692a90165cc28c1a913efdbb6d01cfccad86f6"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q200_s5/args.yaml",
+      "bytes": 1811,
+      "sha256": "3ef7c7a9c37827cde54a1b599e038cdc4baec6a14203862e28d9a29837bb0bb3"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q200_s6/args.yaml",
+      "bytes": 1811,
+      "sha256": "04077519e8cbfb81edb22bfe5680a985ffc28e8c2e18eacb10c9bef4c21aa124"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q200_s7/args.yaml",
+      "bytes": 1811,
+      "sha256": "f524bebfab17095a88e1034f391d41631554ee4e161fd2c0bde4a7e89115dac4"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q200_s8/args.yaml",
+      "bytes": 1811,
+      "sha256": "e8d6733f425a84d16273f295a5054a4c656b8c2ee0439683a8c1685a4480a2af"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q200_s9/args.yaml",
+      "bytes": 1811,
+      "sha256": "f74a5ad4c24c2456dafc920dac10b669e8124568745287283cc95fdef5d93371"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q300_s1/args.yaml",
+      "bytes": 1811,
+      "sha256": "7396de3c904b4c5297d5d05acd3de1432ee6f281f0b62dc3f78e3aa2619a9c2c"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q300_s2/args.yaml",
+      "bytes": 1811,
+      "sha256": "230e47ef181ebc44599cf527cbae676e30499e81ce612247b448b3dddc73d788"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q300_s3/args.yaml",
+      "bytes": 1811,
+      "sha256": "bf31d2a0f6bd452a494e65ae9466e7a9e1000983f4f1978cdf9509d2c3b914fd"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q300_s4/args.yaml",
+      "bytes": 1811,
+      "sha256": "6c95be03a5d04f4c70019ab3a38ee2fda3b8de372084aefdfc7d680c798dc0a1"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q300_s42/args.yaml",
+      "bytes": 1814,
+      "sha256": "83833b85dae117c45f01ede3650f1159fbdcc720becfad435357d7aafaef0504"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q300_s5/args.yaml",
+      "bytes": 1811,
+      "sha256": "eef4dd4d42aa4b36113dd3358d76d7aa774d6a4017ab9595475419825fb7b8e1"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q300_s6/args.yaml",
+      "bytes": 1811,
+      "sha256": "58a19fe9c6a55e02e550e4e826c0d4a811916cde257783c90807822946fb22cf"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q300_s7/args.yaml",
+      "bytes": 1811,
+      "sha256": "de37820cbd27b73b9cab54edccbfa9f2e36a320bfa841e0e81079d9b0092f4bd"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q300_s8/args.yaml",
+      "bytes": 1811,
+      "sha256": "dcc4a8cdbeb0cbc01f65aaa8e7ed12430e2a3c13385a6f7ed84251b19a34faaf"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q300_s9/args.yaml",
+      "bytes": 1811,
+      "sha256": "69fb1bf4ac7659b68c5a40c28cdc3faa199a8d4573f3e1d55796f00c39e2bb72"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q500_s1/args.yaml",
+      "bytes": 1811,
+      "sha256": "2877992fa8ebee0b50d235adbc3790d3c35ff1f50ef7f4bb2b6febd46ed84d04"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q500_s2/args.yaml",
+      "bytes": 1811,
+      "sha256": "4e7898b047ff8ed7611c4af6d947f8859afc5077992a92fa84c865e640d6e083"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q500_s3/args.yaml",
+      "bytes": 1811,
+      "sha256": "f9ec0016289bccf28cc57f4521b0245cfc0a885f8dc8219adb1aeaacec0baa75"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q500_s4/args.yaml",
+      "bytes": 1811,
+      "sha256": "850e3501179cbaf8f7bf6270b4e169d700c1ca7f45bade290e30a54581be81ea"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q500_s42/args.yaml",
+      "bytes": 1814,
+      "sha256": "d3b1e47dfe7e4bff67fbdd6c4827d963fa7371d1de1d1e6cf8aae1f3e54247f9"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q500_s5/args.yaml",
+      "bytes": 1811,
+      "sha256": "ab697ab90620d7072a35983be5642bdeed8bd28bca6c6da51be9e44652253ac1"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q500_s6/args.yaml",
+      "bytes": 1811,
+      "sha256": "2ebd37570a03be5e63f40029c6eff2a3596b749efa26a3f19ce5803d80b93f3c"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q500_s7/args.yaml",
+      "bytes": 1811,
+      "sha256": "b8a4d35d08c1f6f5690da4f2caf5583b0fcefa4b621c15da48c3e07c1924c947"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q500_s8/args.yaml",
+      "bytes": 1811,
+      "sha256": "d276b810d56ba3d3eea22df1499538836eb6da7151be80f6708116560d790592"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_q3_q_sensitivity/q500_s9/args.yaml",
+      "bytes": 1811,
+      "sha256": "1a20944a19d74bde18d9a009b97773c65d67b507f79c432b8e9b25c9b42c359c"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/baseline_s1/args.yaml",
+      "bytes": 1809,
+      "sha256": "fabe44b907cae44b2b5fb6a509d690e7760f6a737cf4a8a71d76d8748cbee629"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/baseline_s2/args.yaml",
+      "bytes": 1809,
+      "sha256": "4414414597cb5e703a15644555d6b1560c014a371dfdd99ba8ab79f76e83c177"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/baseline_s3/args.yaml",
+      "bytes": 1809,
+      "sha256": "1e65b9b0ce75b32aeda3cb00e24f11c5820a5899bb578c2053ca0a05cdb0c035"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/baseline_s4/args.yaml",
+      "bytes": 1809,
+      "sha256": "3e1e74acd678c6b235de3915037269af00561f465a989704455a33720637b703"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/baseline_s42/args.yaml",
+      "bytes": 1812,
+      "sha256": "6c7e7cacd4dbc80ea427dd0d1626a91dfd381afde0cd078faa5e6ceb2dedb7cf"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/baseline_s5/args.yaml",
+      "bytes": 1809,
+      "sha256": "f4b05f6a82b51673a8d134dba8ef62b2207fab4fde4034949def3b70fa746383"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/baseline_s6/args.yaml",
+      "bytes": 1809,
+      "sha256": "b42c730c5fa29de428e4556972d948b50804fc5778504499eb58f1ed1bc8b3b3"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/baseline_s7/args.yaml",
+      "bytes": 1809,
+      "sha256": "c12ab8e719e387e5d6d4c3637b8640b811aaa940984885592835123a1f234d3f"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/baseline_s8/args.yaml",
+      "bytes": 1809,
+      "sha256": "c5f09302b4e931288b256889af9d53a9202941119cdd02811222186d1e48a41e"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/baseline_s9/args.yaml",
+      "bytes": 1809,
+      "sha256": "0a275ed96e985f8bf491cae16b41091cb2a4dacbb556ebf63cb51a9853f3e7f4"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/baseline_stepmatched_s1/args.yaml",
+      "bytes": 1845,
+      "sha256": "c980e42dfa07e720bec76af6bd2a6922cc431ac850a9584e82eb262214d73f29"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/baseline_stepmatched_s2/args.yaml",
+      "bytes": 1845,
+      "sha256": "368101f1a7b0bfc432e3c9e91d3568285e5533e300c844cecb4db1270958f083"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/baseline_stepmatched_s3/args.yaml",
+      "bytes": 1845,
+      "sha256": "3d4f09ca8d58c50ed5133213a0b8b5b2ea12c6fbce67ab2a1d95491fa4845c10"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/baseline_stepmatched_s4/args.yaml",
+      "bytes": 1845,
+      "sha256": "af259bc093b6a678f0332f8728f52aa227b62c6f887c8d501c2d571941f5b8ba"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/baseline_stepmatched_s42/args.yaml",
+      "bytes": 1848,
+      "sha256": "ea914ac968047240138944bce2878e73659c6a2f3bec58d262283b0bb310a80e"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/baseline_stepmatched_s5/args.yaml",
+      "bytes": 1845,
+      "sha256": "4ee59c78445c864455d7a227f93f322b15d88b7f1f414e7d948b2bc11ed29dd3"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/baseline_stepmatched_s6/args.yaml",
+      "bytes": 1845,
+      "sha256": "195e5c7583092ad50b15917c77bc76990f9679b3637471162102d98cd07cf214"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/baseline_stepmatched_s7/args.yaml",
+      "bytes": 1845,
+      "sha256": "14a278436ce2d3721923ee14fa8675ed6d46ee5457f6fd306a576fc1335dad73"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/baseline_stepmatched_s8/args.yaml",
+      "bytes": 1845,
+      "sha256": "0623fbc2699a79295efc80b19ab24645922568fc28169367fdfeff4040a843ed"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/baseline_stepmatched_s9/args.yaml",
+      "bytes": 1845,
+      "sha256": "1aa6e0486ee417ffd781c1652f81c344a018553b3938cdcd40deb67f5c516aec"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/textproj_q300_s1/args.yaml",
+      "bytes": 1824,
+      "sha256": "3043f74bd24fedc13d6e12891a91aa51538d940baf2fdcb80355554eca070194"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/textproj_q300_s2/args.yaml",
+      "bytes": 1824,
+      "sha256": "3c3f1d802433078cef9321faf57dc79e28b321550b076f8e83640fda3180e3cd"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/textproj_q300_s3/args.yaml",
+      "bytes": 1824,
+      "sha256": "a21bedf8bd6f40103731e0d8f3bcf7332a76b80355acf77d4edae2e55f68dac6"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/textproj_q300_s4/args.yaml",
+      "bytes": 1824,
+      "sha256": "6a4484e3b5be968065e120f8f909c11eb36bf5b1ba4c5a6abbd513233def23b2"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/textproj_q300_s42/args.yaml",
+      "bytes": 1827,
+      "sha256": "a669489dbc7fbf1e8f2a18823201c55c654f31072b753c9c25db8af121bf869d"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/textproj_q300_s5/args.yaml",
+      "bytes": 1824,
+      "sha256": "a8fa3aa26b5595dae1324e14db9b8202099386884595528d95cdd009d1fac976"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/textproj_q300_s6/args.yaml",
+      "bytes": 1824,
+      "sha256": "66e4b367e870d7f0ac8bd7374f47b8675f4cf5a5f7e767699da70e24e4ced2e5"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/textproj_q300_s7/args.yaml",
+      "bytes": 1824,
+      "sha256": "a3af8887e66eb519a635a6fec1343ad4e3690743fc44469f3c94bd0117d77ccc"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/textproj_q300_s8/args.yaml",
+      "bytes": 1824,
+      "sha256": "5b96b053d4c45bf5dbae1eb57ddd5cc64cf30701d075957bc8a2f99f10bb1a29"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_strict_b4/textproj_q300_s9/args.yaml",
+      "bytes": 1824,
+      "sha256": "695ad74e8885a5ced13248292e652a54bdcd122aed416853db2bb54004d9548f"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/class_nom_q300_s1/args.yaml",
+      "bytes": 1851,
+      "sha256": "ef09d866cce45e569f35a0365b002298a189465293b0201ddfe7f0e8a2d6f8eb"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/class_nom_q300_s2/args.yaml",
+      "bytes": 1851,
+      "sha256": "c6cbcea90ee09c345dbe29159191ffbd262edac524e89935f1bc57b4f14ab316"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/class_nom_q300_s3/args.yaml",
+      "bytes": 1851,
+      "sha256": "04fe971e6c43f55d433aadd5bcdd6f0ee4cd23886cea90f665d0fff7ff3c303f"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/class_nom_q300_s4/args.yaml",
+      "bytes": 1851,
+      "sha256": "d7ba6e08bb8f4cef9c91f1960e1486b20dffd0753f9e5b0854b1f36bfade270f"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/class_nom_q300_s42/args.yaml",
+      "bytes": 1854,
+      "sha256": "ebaa475853a8f4a44e410428a4648e69e34c0608d376cbff2d4fc95b5b4f4d04"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/class_nom_q300_s5/args.yaml",
+      "bytes": 1851,
+      "sha256": "2c64da1372f945e190dcf19da8bf7a1688c9a453a6886e8aedc6f0a2f7d65cda"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/class_nom_q300_s6/args.yaml",
+      "bytes": 1851,
+      "sha256": "c7761253245cdde89d1073eb88de70e1fe56a2e4ef110054c87f548dd87df47b"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/class_nom_q300_s7/args.yaml",
+      "bytes": 1851,
+      "sha256": "7439358e82a736329f59668345e79febbe0c1bfddefbd0ae76462d9fa47fc0e8"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/class_nom_q300_s8/args.yaml",
+      "bytes": 1851,
+      "sha256": "359d03c2706b8e32cbfc0a2cd91ff7cf01d0183124dc715c5e4183b78213ca8c"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/class_nom_q300_s9/args.yaml",
+      "bytes": 1851,
+      "sha256": "dd885a6c3903200813f8bd7687804aefca018198831abb63622a9adec262eeaf"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/copypaste_q300_s1/args.yaml",
+      "bytes": 1851,
+      "sha256": "1cf5bbb941999f79a20b9b6471ff95eaaac94cbe1fde26c5b4302f7ccb05726a"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/copypaste_q300_s2/args.yaml",
+      "bytes": 1851,
+      "sha256": "c3756a71a3d107cf32782cbe88601a397782010c6f2562aade88432dea7ef1b0"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/copypaste_q300_s3/args.yaml",
+      "bytes": 1851,
+      "sha256": "07ec74c55545c653b2ac3e93817f3840d89c00c03e5295b6d4ba37b0282b384f"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/copypaste_q300_s4/args.yaml",
+      "bytes": 1851,
+      "sha256": "7e47c6980cb8b91fc9891995acce7ddd4fa2f309e1ce0979997561616f605f42"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/copypaste_q300_s42/args.yaml",
+      "bytes": 1854,
+      "sha256": "9b077f3b83d7e11dfaf479c0c3b442a9af067eece77d57c230d4d72709bb23e8"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/copypaste_q300_s5/args.yaml",
+      "bytes": 1851,
+      "sha256": "23ed3321cf0a036444ba5232749a204650ae355c8b240aa14c660c231659b1d0"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/copypaste_q300_s6/args.yaml",
+      "bytes": 1851,
+      "sha256": "cfc72eb0a6149aef93165e7241ec7a4d269fcb562fff5f01b1cc490213a04b90"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/copypaste_q300_s7/args.yaml",
+      "bytes": 1851,
+      "sha256": "921f117e4422a77b9116652eeea94c41ba8dda1fcc7daf3f65b4a2e51057bc26"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/copypaste_q300_s8/args.yaml",
+      "bytes": 1851,
+      "sha256": "5443d3edd787406c908fb4107da6b73f7f2fa6b9f9797594ce010474843d4b98"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/copypaste_q300_s9/args.yaml",
+      "bytes": 1851,
+      "sha256": "31ba07f9e27a9b8547e8a7ad8fad4cc6575b6afbf36767ba4f4c1621f6434bbc"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/text_nom_q300_s1/args.yaml",
+      "bytes": 1848,
+      "sha256": "08304d9e7bf31041823797fa415bf14ec9b4a458df165c487e6538ee83096bd1"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/text_nom_q300_s2/args.yaml",
+      "bytes": 1848,
+      "sha256": "968d1216d08bd13b742a84a3c9ba628a26544c9207c2d775e1c4cadba5f1ddb2"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/text_nom_q300_s3/args.yaml",
+      "bytes": 1848,
+      "sha256": "dd8a9b7529116eaf3301d7d7c945d4705b45fea5e382efb0772dc57c61810fd3"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/text_nom_q300_s4/args.yaml",
+      "bytes": 1848,
+      "sha256": "6f5391ce78d34aa64346e1ebb182f96da8baa27103af2386254754a5d4ed5929"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/text_nom_q300_s42/args.yaml",
+      "bytes": 1851,
+      "sha256": "c3afa39ad7d8ecb077ec8faa90b5d1cee0d00fbf60e728aa8064d8f0746ea268"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/text_nom_q300_s5/args.yaml",
+      "bytes": 1848,
+      "sha256": "3f8b1ae1b432e46c449600d1697af8c90825e0dfc91d8149f753ad720faec5f8"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/text_nom_q300_s6/args.yaml",
+      "bytes": 1848,
+      "sha256": "b0557259f4e05a36736492e3a96300c6f3aef463de43be487cdf9ab54e926306"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/text_nom_q300_s7/args.yaml",
+      "bytes": 1848,
+      "sha256": "854432199ff30141c78ffe2ae449f8ca05551a51c985eaa1c0f2faa5c521ec4d"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/text_nom_q300_s8/args.yaml",
+      "bytes": 1848,
+      "sha256": "8252d09d49e85d43e062682e7a899bec2db85fe0be72bf239574969ccaf5208b"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_neu_q3_comparators_strict_b4/text_nom_q300_s9/args.yaml",
+      "bytes": 1848,
+      "sha256": "494283b8670b68d0f349a608ea37f43e79fcdef99e604a41668a1fc3ab96afd1"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_q3_strict_b4/real_only_s1/args.yaml",
+      "bytes": 1820,
+      "sha256": "5f4092a722b02b54e07846991ad79888ef5ca3bdcbc9c321c659c0994fb38229"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_q3_strict_b4/real_only_s2/args.yaml",
+      "bytes": 1820,
+      "sha256": "8a5036ba221dd3d95b19e76cc38cd77ea4c14e40dfa71936581c71b862d9d28b"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_q3_strict_b4/real_only_s3/args.yaml",
+      "bytes": 1820,
+      "sha256": "cc94d335ea9083112a2f05bd1b0af5c831023d74aebe6d2baa43cc2b8b2cc444"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_q3_strict_b4/real_only_s4/args.yaml",
+      "bytes": 1820,
+      "sha256": "cfc69cbf8d6b3ccf7a16794503e1d5894992044c308b46a8d4455f0903cd969c"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_q3_strict_b4/real_only_s42/args.yaml",
+      "bytes": 1823,
+      "sha256": "8347efbe48c280dfc44010d528858a0efdcd69c4f30f84dcae7a739a2a1e5004"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_q3_strict_b4/real_only_s5/args.yaml",
+      "bytes": 1820,
+      "sha256": "4000479a6087933748c388c8b222ce1d3abaa759a0aa685a3d9fa74a6ebe078c"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_q3_strict_b4/real_only_s6/args.yaml",
+      "bytes": 1820,
+      "sha256": "1c650159d4cafa880dd6592165beceaf3da2a5676a8556eb5078c6cec8e5dbe6"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_q3_strict_b4/real_only_s7/args.yaml",
+      "bytes": 1820,
+      "sha256": "fda6aab384e562ba79a5d3c99c17dd05d6e9676f2e58873c242702a4749e7ef2"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_q3_strict_b4/real_only_s8/args.yaml",
+      "bytes": 1820,
+      "sha256": "4c386518697c355ca80762e2426391cf79404159f93c51db49818c99cb91ae11"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_q3_strict_b4/real_only_s9/args.yaml",
+      "bytes": 1820,
+      "sha256": "a25a3fcb56f043d140ddee5632bce374623f4ce4ba5d172b13e047e970e4b178"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_q3_strict_b4/real_resampled_q300_s1/args.yaml",
+      "bytes": 1850,
+      "sha256": "7c508b0f4e8141843ded32daaba1ce49e501e74cad654c76960e2d7e5c49e763"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_q3_strict_b4/real_resampled_q300_s2/args.yaml",
+      "bytes": 1850,
+      "sha256": "86dc515d500152e915f4f3c4383693a955b8991aafe54cefdf2129b6423f64fd"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_q3_strict_b4/real_resampled_q300_s3/args.yaml",
+      "bytes": 1850,
+      "sha256": "6cd762b6953e9dc891190463732f9faeaf13ad9f7313c0498152548145fef722"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_q3_strict_b4/real_resampled_q300_s4/args.yaml",
+      "bytes": 1850,
+      "sha256": "bfde822738130ff93573967cb05b2461d02b50f688e1d47022df4b0a0b60ebe0"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_q3_strict_b4/real_resampled_q300_s42/args.yaml",
+      "bytes": 1853,
+      "sha256": "5b97d029674b2022302f8611a39278ce88821942ca69d9f82013aebcdb140c7f"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_q3_strict_b4/real_resampled_q300_s5/args.yaml",
+      "bytes": 1850,
+      "sha256": "5717d577c7eccb56001182963c0ebfbd1badf2209638e09482b83024f7136e68"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_q3_strict_b4/real_resampled_q300_s6/args.yaml",
+      "bytes": 1850,
+      "sha256": "fbf4f8ce626436a956c126fd4dc86880051ef82e6ebfa53a1eaf1f58f2bd02be"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_q3_strict_b4/real_resampled_q300_s7/args.yaml",
+      "bytes": 1850,
+      "sha256": "b1a22a73247033e2fb281b7f6ff789ea2c56de1e384aa25a7e489b4bb3d66550"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_q3_strict_b4/real_resampled_q300_s8/args.yaml",
+      "bytes": 1850,
+      "sha256": "1b8eec166fd088482934eef50aa02ed174525701c31dbb57486286df1809b8c1"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_q3_strict_b4/real_resampled_q300_s9/args.yaml",
+      "bytes": 1850,
+      "sha256": "122aef4d04b6fe5b533bbb45f2b7b840bae974985559016343a83a0bd54b5581"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_copypaste_strict_b4/copypaste_q300_s1/args.yaml",
+      "bytes": 1849,
+      "sha256": "f6fad4c4490d0070b7ab4e37f22b9501ccb22661b1adcbba6b8ae072da132a15"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_copypaste_strict_b4/copypaste_q300_s2/args.yaml",
+      "bytes": 1849,
+      "sha256": "c33ffd9ed835103c5370188864be2355fa3bbfdc992ba9d046e26f28dff5e3ed"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_copypaste_strict_b4/copypaste_q300_s3/args.yaml",
+      "bytes": 1849,
+      "sha256": "e1259196e759e3d9589ab05a246e43c44d2ec05da5c91219eefd8edb13085867"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_copypaste_strict_b4/copypaste_q300_s4/args.yaml",
+      "bytes": 1849,
+      "sha256": "c5c1151656c79ff199af8d87bfc170ffab4b6000c249912bed2af61ead5cf188"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_copypaste_strict_b4/copypaste_q300_s42/args.yaml",
+      "bytes": 1852,
+      "sha256": "3af68d8dc3f918732c2ad21cc3219063d9e2b809541de2c0dd67a20026245ef1"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_copypaste_strict_b4/copypaste_q300_s5/args.yaml",
+      "bytes": 1849,
+      "sha256": "d9b8f4f666a4f5b7618abc69491c4b04f20316a3e1eeef0c759f6fd9bcf3bafe"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_copypaste_strict_b4/copypaste_q300_s6/args.yaml",
+      "bytes": 1849,
+      "sha256": "bc58b5f5dbfc63b368e507a4a39692bd76748e7ca2712ba48eb6e198bde9d4c3"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_copypaste_strict_b4/copypaste_q300_s7/args.yaml",
+      "bytes": 1849,
+      "sha256": "2328fc2d065997261fc4b9d56a0b105b0dac487bcef1932a4493816d8cc43d17"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_copypaste_strict_b4/copypaste_q300_s8/args.yaml",
+      "bytes": 1849,
+      "sha256": "b5b1c5d9ec881d65b2d585325fae441bea97c353d8b79e760e3f60e71fd66bab"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_copypaste_strict_b4/copypaste_q300_s9/args.yaml",
+      "bytes": 1849,
+      "sha256": "23978be64ea9b437f71f60aa1e14dc7f760050c5873d4a727ee27adaa5f03b3f"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_gan_strict_b4/textproj_mses_q300_s1/args.yaml",
+      "bytes": 1853,
+      "sha256": "53db4998942457c02af6e7156a96ccf50af5aa6a1e4333d845e53634d2b658d2"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_gan_strict_b4/textproj_mses_q300_s2/args.yaml",
+      "bytes": 1853,
+      "sha256": "5b79dcc06c51cd64831a23391ba3bf203d8efbe43498842c639df6eaf47e6e49"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_gan_strict_b4/textproj_mses_q300_s3/args.yaml",
+      "bytes": 1853,
+      "sha256": "fe609ea30d6faa7faed474c1d1fb9e871daf0c8abbfaea059c8edf3c437876eb"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_gan_strict_b4/textproj_mses_q300_s4/args.yaml",
+      "bytes": 1853,
+      "sha256": "debd1a955e466ab9f895d26bb8f043440dceff3ca3dbf406ec6fc17c15ca003f"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_gan_strict_b4/textproj_mses_q300_s42/args.yaml",
+      "bytes": 1856,
+      "sha256": "e3141ea18a7989cf9e7b65382546839acf785dc1f48c21dd7a467002bb151049"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_gan_strict_b4/textproj_mses_q300_s5/args.yaml",
+      "bytes": 1853,
+      "sha256": "f9969ed581797ec89cc051f295b294795ff9282ffc03a96f605fdc4dac0ad3dd"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_gan_strict_b4/textproj_mses_q300_s6/args.yaml",
+      "bytes": 1853,
+      "sha256": "c7b5e1fcc5b7b66fe1cf704b86e274fdc6341cba9f2627c0553923b3a476d83f"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_gan_strict_b4/textproj_mses_q300_s7/args.yaml",
+      "bytes": 1853,
+      "sha256": "8a05e54fae7a7abf67ce5800147bfe9490b7732c0749fc7e323719e7646d760c"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_gan_strict_b4/textproj_mses_q300_s8/args.yaml",
+      "bytes": 1853,
+      "sha256": "8d042ba5246045f70389be8059ffac90e83104aecd55e1e3287eb9a4bcfac31e"
+    },
+    {
+      "path": "configurations/yolov8_det/runs_gc10_gan_strict_b4/textproj_mses_q300_s9/args.yaml",
+      "bytes": 1853,
+      "sha256": "234c681bded2959ce2da7783c9931d5695eab205431dfb1557fa8d84703ed4cf"
+    },
+    {
+      "path": "configurations/INDEX.json",
+      "bytes": 125402,
+      "sha256": "1fcd7ce8e41c5f7e8d33dbb413877a968f8c473642887ace7e07a1ba8299e5a9"
+    },
+    {
+      "path": "cable/q3_resampling_comparisons.csv",
+      "bytes": 772,
+      "sha256": "fea80efe25f3341f6505a2b66ee6b0cbf74820f5784e2fbf64c7204a6d7b8903"
+    },
+    {
+      "path": "audits/qualitative_layout_20261014.json",
+      "bytes": 8667,
+      "sha256": "7caa300fd6d3606dda81ffcfc2e01dfe6663dec32e85a38aa58a9b1b2b05caa0"
+    }
+  ],
+  "excluded": [
+    "Raw or generated images",
+    "Model tensor storages/weights",
+    "Private cable filenames",
+    "Independent second-reviewer record (not retained)"
+  ],
+  "limitations": [
+    "Original BatchNorm rationale and per-run normalization attributes not recorded",
+    "Single shared author-confirmed review summary",
+    "Acquisition-session independence not established",
+    "Repository is code-only, not a fully executable raw-data archive"
+  ],
+  "revision_note": "2026-10-13: historical generator source check added; previous audit and all experimental results retained unchanged."
+}

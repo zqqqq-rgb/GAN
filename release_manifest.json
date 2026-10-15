@@ -1,0 +1,478 @@
+{
+  "target_repository": "https://github.com/zqqqq-rgb/GAN",
+  "scope": "Experiment code and de-identified reproducibility archive; manuscripts, raw images, generated pools, weights and third-party papers remain private/excluded.",
+  "validation": {
+    "python_syntax": "passed",
+    "gan_scientific_core_ast": "unchanged",
+    "sensitive_material_pattern_scan": "passed",
+    "gpu_training": "not run"
+  },
+  "source_files": [
+    {
+      "path": "implementations/wgan_gp/cwgan_gp_clip_proj.py",
+      "source_sha256": "64acdb464ba9815697ca2661c2c8599ce8ae899bb317ba71f7f277d675db40f6",
+      "release_sha256": "58ed7c170963640e33dba2831e304b8dc9e8970ba2385aadac9ed37371ef86a8",
+      "changes": [
+        "GAN default input -> train-only ImageFolder"
+      ]
+    },
+    {
+      "path": "implementations/wgan_gp/cwgan_gp_proj.py",
+      "source_sha256": "220decdf1b8601b21fe814eba911eea8bc57d2072462dbe2f391972ff8e1d155",
+      "release_sha256": "95b69f142dc35d39f786e6a69144e823fccea0fcaac5d61251882b27a6724ab1",
+      "changes": [
+        "GAN default input -> train-only ImageFolder"
+      ]
+    },
+    {
+      "path": "implementations/wgan_gp/cgenerate_images_clip.py",
+      "source_sha256": "e3136c553a1ae50c4a5440236ed20dc9e7f235097082830fde96b73200b14790",
+      "release_sha256": "e3136c553a1ae50c4a5440236ed20dc9e7f235097082830fde96b73200b14790",
+      "changes": []
+    },
+    {
+      "path": "implementations/wgan_gp/cgenerate_images.py",
+      "source_sha256": "e16a6c0ce4dce9c36efe510a6b5ca1fc1349afcdb15661d867566cb3f5d07b75",
+      "release_sha256": "e16a6c0ce4dce9c36efe510a6b5ca1fc1349afcdb15661d867566cb3f5d07b75",
+      "changes": []
+    },
+    {
+      "path": "implementations/wgan_gp/wgan_gp.py",
+      "source_sha256": "71ca9501c447538102d4b0d7e5187fc7b65be1634f6baf3fc57e65e5e30149bd",
+      "release_sha256": "71ca9501c447538102d4b0d7e5187fc7b65be1634f6baf3fc57e65e5e30149bd",
+      "changes": []
+    },
+    {
+      "path": "implementations/wgan_gp/dcgan_train.py",
+      "source_sha256": "62ace3b81ccd3a255971b5af4b680f4838dfd304c99eda7e83e1e160613f33c0",
+      "release_sha256": "fd5931f480f1c09bee59c49dd8998c86575cb45383e0f4b180e857a0ecd3cac5",
+      "changes": []
+    },
+    {
+      "path": "implementations/wgan_gp/diffaugment.py",
+      "source_sha256": "7b4c7629daaf1a754b8fdd0f3d7bf2121917223d121d96032139b59f0ec9fdb3",
+      "release_sha256": "7b4c7629daaf1a754b8fdd0f3d7bf2121917223d121d96032139b59f0ec9fdb3",
+      "changes": []
+    },
+    {
+      "path": "implementations/wgan_gp/generate_images.py",
+      "source_sha256": "b5a43ddece7de4e810e65e5266e774e2eac6a50e65953156f0fd00812d155406",
+      "release_sha256": "b5a43ddece7de4e810e65e5266e774e2eac6a50e65953156f0fd00812d155406",
+      "changes": []
+    },
+    {
+      "path": "implementations/wgan_gp/train_fastgan.py",
+      "source_sha256": "eaae2a7ab8715021b6510cdcfc6d3aee92a1fb17fe939ae2db7186f7d6f9b77f",
+      "release_sha256": "eaae2a7ab8715021b6510cdcfc6d3aee92a1fb17fe939ae2db7186f7d6f9b77f",
+      "changes": []
+    },
+    {
+      "path": "implementations/wgan_gp/gen_fastgan_1000.py",
+      "source_sha256": "0b3105135cf44157b44f84e84344e9ab1712dcef1420e130eab69ef3395a2737",
+      "release_sha256": "0b3105135cf44157b44f84e84344e9ab1712dcef1420e130eab69ef3395a2737",
+      "changes": []
+    },
+    {
+      "path": "implementations/wgan_gp/traditional_augment.py",
+      "source_sha256": "c9e88ce00769374c94e7259a70b301d24151bd882f459b0bb1fee0366619e5e5",
+      "release_sha256": "c9e88ce00769374c94e7259a70b301d24151bd882f459b0bb1fee0366619e5e5",
+      "changes": []
+    },
+    {
+      "path": "implementations/wgan_gp/q3_generative_metrics.py",
+      "source_sha256": "e58908f0c7b971f7464af519ee82d55c130a555d7589dc322e97540bcfc4dc95",
+      "release_sha256": "e58908f0c7b971f7464af519ee82d55c130a555d7589dc322e97540bcfc4dc95",
+      "changes": []
+    },
+    {
+      "path": "implementations/wgan_gp/q3_condition_classifier.py",
+      "source_sha256": "7ab41f409ac991c8e339b2812609766fc4c6c5537841063143487025a1a5da16",
+      "release_sha256": "7ab41f409ac991c8e339b2812609766fc4c6c5537841063143487025a1a5da16",
+      "changes": []
+    },
+    {
+      "path": "implementations/wgan_gp/prepare_gc10_gan.py",
+      "source_sha256": "bb8143443a95326814527e7b33fbf81c78530a8804afa075e9df5b6aeaa9995d",
+      "release_sha256": "54d20b3f912aedfbab73cba69b7301dd57026506e804d397e4537b065a3e806b",
+      "changes": [
+        "workstation path -> release-root path"
+      ]
+    },
+    {
+      "path": "implementations/wgan_gp/fid_lpips_eval.py",
+      "source_sha256": "ae3367c20145efc881b09e1a30796a6fdf115681026c926032d771a34d97ffaa",
+      "release_sha256": "ae3367c20145efc881b09e1a30796a6fdf115681026c926032d771a34d97ffaa",
+      "changes": []
+    },
+    {
+      "path": "implementations/wgan_gp/cwgan_gp.py",
+      "source_sha256": "0774ae278d712046b2ad6ff161f9662fc2af19bea8376cf0a866cb410049c06a",
+      "release_sha256": "0774ae278d712046b2ad6ff161f9662fc2af19bea8376cf0a866cb410049c06a",
+      "changes": []
+    },
+    {
+      "path": "implementations/wgan_gp/cwgan_gp_clip.py",
+      "source_sha256": "4cd4d9b5a677299e95efb134eb384cee55e5cc2a7a469bb49253b7c254d1226a",
+      "release_sha256": "4cd4d9b5a677299e95efb134eb384cee55e5cc2a7a469bb49253b7c254d1226a",
+      "changes": []
+    },
+    {
+      "path": "implementations/wgan_gp/train_E6_neu.py",
+      "source_sha256": "ed773d1c107f215c80d018ab4fb70d564cff2bc8517c8e6ede94314eacf35d77",
+      "release_sha256": "e5d239a4233c4f2f488f8c6a5511ae6211e7cd18903839ebfbc969feb3407aa7",
+      "changes": [
+        "workstation path -> release-root path"
+      ]
+    },
+    {
+      "path": "implementations/yolov8_det/scripts/leakfix_prepare.py",
+      "source_sha256": "147bcc541c65c61bca304c9306e78d4dca92b385f79f511fa02362f77dfd351b",
+      "release_sha256": "147bcc541c65c61bca304c9306e78d4dca92b385f79f511fa02362f77dfd351b",
+      "changes": []
+    },
+    {
+      "path": "implementations/yolov8_det/scripts/build_dataset.py",
+      "source_sha256": "41d31beef6cef6a777c7f96543974a4ab9fcb7bf026e588b246a69cc3e190699",
+      "release_sha256": "34c950f1175fb984eac246cff1d483c682ad51ad38a03444a621f4a67d8b6168",
+      "changes": [
+        "workstation path -> release-root path"
+      ]
+    },
+    {
+      "path": "implementations/yolov8_det/scripts/leakfix_det_pipeline.py",
+      "source_sha256": "f79ca79f62068d171f4ba35aa83a35c046e3055a12c97349f309cf8185ded533",
+      "release_sha256": "7d50596c8fa54b4a68babeb51ce4e0d24dee432264a3ad7b3e6eb54e442cea58",
+      "changes": [
+        "documentation path/comment cleanup",
+        "interpreter -> active Python",
+        "site-packages -> active environment",
+        "workstation path -> release-root path"
+      ]
+    },
+    {
+      "path": "implementations/yolov8_det/scripts/build_copypaste.py",
+      "source_sha256": "b1a158057139e4a6d03cbbb5312bdbd2d9e048c4a499651d7b78e7eb92dd6fcc",
+      "release_sha256": "6112fcc083f4958a8ae8b3f60ee5daf1c44e132feaf43791c3a2bbad886cf82b",
+      "changes": [
+        "workstation path -> release-root path"
+      ]
+    },
+    {
+      "path": "implementations/yolov8_det/scripts/build_copypaste_neu.py",
+      "source_sha256": "9cd09e894f5b1d2b725da1efae3c94df92c060e2a0b8ae5e03c683c3c265d70e",
+      "release_sha256": "f569a577d6cfa1f982b911fb242514ca1379ceca68b2afb6389ed29ce8416810",
+      "changes": [
+        "workstation path -> release-root path"
+      ]
+    },
+    {
+      "path": "implementations/yolov8_det/scripts/pseudo_label.py",
+      "source_sha256": "ca7313d39903d4f49a19efa4f8545f6ce36fb6aed697f3453150e6a97b694d8d",
+      "release_sha256": "3e1f2cad32b977c0a4a982818c79705ce268f85da1a90056160fc199e73a4434",
+      "changes": [
+        "documentation path/comment cleanup",
+        "site-packages -> active environment",
+        "workstation path -> release-root path"
+      ]
+    },
+    {
+      "path": "implementations/yolov8_det/scripts/neu_det_prepare.py",
+      "source_sha256": "094a6b9ca5d5e734a8811b37fd3bc51346e92dd2ac6f153f082adec860f4f88e",
+      "release_sha256": "a87000e8d2c6ce0511d92be86a921a95e4e095939217f2a31ffd3b67c3d84af5",
+      "changes": [
+        "workstation path -> release-root path"
+      ]
+    },
+    {
+      "path": "implementations/yolov8_det/scripts/generate_E6_neu.py",
+      "source_sha256": "d1a8be718432b1fe4c7a739e420f8702c876051dfa292546fccc9f73914f298b",
+      "release_sha256": "6d7972e4f0df67751f9c7f1cf8381be6e81301359cb3159bc0107f7928b4a84a",
+      "changes": [
+        "workstation path -> release-root path"
+      ]
+    },
+    {
+      "path": "implementations/yolov8_det/scripts/gc10_prepare.py",
+      "source_sha256": "8db8fcd7dfe5f813a75631ee8ab5500429dffc4dd363482dd6dc339b7fac09bd",
+      "release_sha256": "86800cba5cc31e01c3fe883a4a87c554cc430930819dac8e48c8883c33c5797a",
+      "changes": [
+        "workstation path -> release-root path"
+      ]
+    },
+    {
+      "path": "implementations/yolov8_det/scripts/q3_fixedq_pipeline.py",
+      "source_sha256": "b0e59b960232d355b2200c528a591a640855f3cf4f921d7c660157ace00a8cd9",
+      "release_sha256": "b0e59b960232d355b2200c528a591a640855f3cf4f921d7c660157ace00a8cd9",
+      "changes": []
+    },
+    {
+      "path": "implementations/yolov8_det/scripts/q3_q_sensitivity_current.py",
+      "source_sha256": "4670f14bd54fd81d8dcdbf202d8ce6ce1533a5dd8b7241b6882869b4bbf3e676",
+      "release_sha256": "4670f14bd54fd81d8dcdbf202d8ce6ce1533a5dd8b7241b6882869b4bbf3e676",
+      "changes": []
+    },
+    {
+      "path": "implementations/yolov8_det/scripts/q3_neu_projection_pipeline.py",
+      "source_sha256": "a79b5e706aea0371c1e9a41ce3439cfbfa997398ac42fb0f96b1007a1e500e82",
+      "release_sha256": "a6426dff7fde3659782bec862081c90bfe24472ff46b7ec8de3674d3d4211570",
+      "changes": [
+        "interpreter -> active Python",
+        "site-packages -> active environment",
+        "workstation path -> release-root path"
+      ]
+    },
+    {
+      "path": "implementations/yolov8_det/scripts/q3_neu_comparators_pipeline.py",
+      "source_sha256": "59e586b2e67dc47b9d831f04f41a32a4882b389ea1e2dbc30a4c2ccf4e7c4dd4",
+      "release_sha256": "35cff66a0d76fa5548112e4e467c2d7010c1603ccc435533fab99a5cd70aade9",
+      "changes": [
+        "interpreter -> active Python",
+        "site-packages -> active environment",
+        "workstation path -> release-root path"
+      ]
+    },
+    {
+      "path": "implementations/yolov8_det/scripts/gc10_external_pipeline.py",
+      "source_sha256": "bdd12f79c8936fa61944c7757a616b98af907bfd91c4086237f0e1cc90f0140d",
+      "release_sha256": "5a3982dc8338b69efd8d97f958489ff930011f0f4cbe3b7a0407bf2c98055ade",
+      "changes": [
+        "interpreter -> active Python",
+        "site-packages -> active environment",
+        "workstation path -> release-root path"
+      ]
+    },
+    {
+      "path": "implementations/yolov8_det/scripts/gc10_copypaste_pipeline.py",
+      "source_sha256": "16feb5a0f13f7b6d9249af13756840162c07c45edc890b091fa1ead506c1ee30",
+      "release_sha256": "7a7a1c1c8dbb30eeae5820f65a069ba246b1499cfd8668ba6472150ae35c6e2e",
+      "changes": [
+        "interpreter -> active Python",
+        "site-packages -> active environment",
+        "workstation path -> release-root path"
+      ]
+    },
+    {
+      "path": "implementations/yolov8_det/scripts/gc10_gan_external_pipeline.py",
+      "source_sha256": "34e7792e9d265f021b20018e5d686f364255f3cf86e5b817e174c1811eff1dab",
+      "release_sha256": "f411373960f59c2efab6ea5dc48395e0c2c5740fe786071d25ccb7e0556ce703",
+      "changes": [
+        "interpreter -> active Python",
+        "site-packages -> active environment",
+        "workstation path -> release-root path"
+      ]
+    },
+    {
+      "path": "implementations/yolov8_det/scripts/analyze_q3_fixedq_statistics.py",
+      "source_sha256": "d7e85de547db8fafa70af0514c4e4498c7abea492ad4cb1831e2a35ee6b9208c",
+      "release_sha256": "0d1f00df77f4498c68e9cefe61802e2314628f6fe41df6ec11889f21acf0f7e5",
+      "changes": []
+    },
+    {
+      "path": "implementations/yolov8_det/scripts/analyze_q3_gan_seed_robustness.py",
+      "source_sha256": "2e7dd57cbf186df39b93fa89646a4aaf4ac87f359c2011f350cb1e6040bd7dcb",
+      "release_sha256": "5e52f5a3fbf83b5e690e51d453ed50e0784d7121c111df78f55ae426c3d44bf6",
+      "changes": [
+        "workstation path -> release-root path"
+      ]
+    },
+    {
+      "path": "implementations/yolov8_det/scripts/analyze_q3_diffusion_multiseed.py",
+      "source_sha256": "145030e229620a26b15648d9c43b74835153ec1d717c77e6fff9a7da650149ee",
+      "release_sha256": "145030e229620a26b15648d9c43b74835153ec1d717c77e6fff9a7da650149ee",
+      "changes": []
+    },
+    {
+      "path": "implementations/yolov8_det/scripts/analyze_q3_image_bootstrap.py",
+      "source_sha256": "1bedc9cb481e98ac5b6c90fba0bf07d7aaeb2096c2ded0c92ad5afa821ea894c",
+      "release_sha256": "1bedc9cb481e98ac5b6c90fba0bf07d7aaeb2096c2ded0c92ad5afa821ea894c",
+      "changes": []
+    },
+    {
+      "path": "implementations/yolov8_det/scripts/analyze_q3_per_defect_type.py",
+      "source_sha256": "4820523c949530200a42aff16dc521caced75bdb5fa24426abdd18b2e402a2d8",
+      "release_sha256": "4820523c949530200a42aff16dc521caced75bdb5fa24426abdd18b2e402a2d8",
+      "changes": []
+    },
+    {
+      "path": "implementations/yolov8_det/scripts/analyze_q3_q_sensitivity_current.py",
+      "source_sha256": "eb8ea558894ca32ac641ca30a4c711f8b1c11cd54dc7829b13a239a5e2638814",
+      "release_sha256": "c8014416cfe1d610841e085dc98592902773b3a048910b44e6c5c32fc9ca3a22",
+      "changes": [
+        "workstation path -> release-root path"
+      ]
+    },
+    {
+      "path": "implementations/yolov8_det/scripts/analyze_q3_neu_projection.py",
+      "source_sha256": "99c3485eb81169c742d15d57f65fcd34a5920351b9569c757fd83d3d69f7895d",
+      "release_sha256": "a8bf769464a109425fb53c5b347e35bd80affb7847d9769972662333b9c13d3c",
+      "changes": [
+        "workstation path -> release-root path"
+      ]
+    },
+    {
+      "path": "implementations/yolov8_det/scripts/analyze_q3_neu_comparators.py",
+      "source_sha256": "4b9943bd038ebfe3f6eaed71ae1464a1a4f3c20b3b5c60a56bf9f4cbebc9cf5c",
+      "release_sha256": "9189fce9764e109e7ac79d093f3fd92549896ce03ca6e1316cd609d19d034d4d",
+      "changes": [
+        "workstation path -> release-root path"
+      ]
+    },
+    {
+      "path": "implementations/yolov8_det/scripts/audit_q3_strict_last_protocol.py",
+      "source_sha256": "c57bf978819c18ede15c0fd67e1dbd2a07921e2304adaf24cec3161ec742fee2",
+      "release_sha256": "c57bf978819c18ede15c0fd67e1dbd2a07921e2304adaf24cec3161ec742fee2",
+      "changes": []
+    },
+    {
+      "path": "implementations/diffusion/conditional_latent_ddpm.py",
+      "source_sha256": "61b13a62c757a48aee151e5d63281aaa3093ea3d276ae6251130574a162632da",
+      "release_sha256": "61b13a62c757a48aee151e5d63281aaa3093ea3d276ae6251130574a162632da",
+      "changes": []
+    },
+    {
+      "path": "implementations/wgan_gp/run_q3_gan_multiseed.ps1",
+      "source_sha256": "d915c724dae307a3bb555838ad15f4a7345c70d1d5bd853b6a765e8b4841ac25",
+      "release_sha256": "0eb7d40bdd4d0f7acc893290a9e8e30f383f17b25b2589eb1d5ed376aef911dd",
+      "changes": [
+        "PowerShell paths -> script root / active Python"
+      ]
+    },
+    {
+      "path": "implementations/wgan_gp/run_q3_projection_ablation.ps1",
+      "source_sha256": "cad3e7e670e15b00b70debced74445e9bb1d9678ce3cc3c5060faa4be9a235ff",
+      "release_sha256": "6998c28391c1ee3be60abe857058c094f0215607f62a4a2d354a32eb0a760433",
+      "changes": [
+        "PowerShell paths -> script root / active Python"
+      ]
+    },
+    {
+      "path": "implementations/wgan_gp/run_q3_neu_comparators.ps1",
+      "source_sha256": "f421f398142ae19d9a5cdf4016e23b73d8501445fcf2d671f89ae1baef06786a",
+      "release_sha256": "9ecb9bd0daed5a1c2930d83f9d06c96f39776eee72b2cfaa0fdc33fe5d93c741",
+      "changes": [
+        "PowerShell paths -> script root / active Python"
+      ]
+    },
+    {
+      "path": "implementations/wgan_gp/q3_generative_metrics_config.json",
+      "source_sha256": "e67703a94fba3b15c59a1fe716dd38380455076788e62b7c38915d07453e5bb7",
+      "release_sha256": "61f0aafeacb5986d311242aab59ef7ca4bafecc5eb4aa8b713d624db260df274",
+      "changes": [
+        "workstation prefixes removed"
+      ]
+    },
+    {
+      "path": "implementations/wgan_gp/q3_projection_eval_config.json",
+      "source_sha256": "cb4f43318e8fc5252b61d0fa66d7568f8ee75e50e1de0f97f24e288f9d70582f",
+      "release_sha256": "93ee69942c8ba8324c0b891b112c2b006d85aa3fd8fcf87155cd1c1c3840fc73",
+      "changes": [
+        "workstation prefixes removed"
+      ]
+    },
+    {
+      "path": "implementations/wgan_gp/q3_condition_config.json",
+      "source_sha256": "d63e1a7c11ba8df2f935d957e34257969b18c1a382715722cd5e82cca420f432",
+      "release_sha256": "e3c7f634245ff7f99acb106e5a0e59483783647cc50b8350fae2efa001b82f14",
+      "changes": [
+        "workstation prefixes removed"
+      ]
+    },
+    {
+      "path": "deliverables/make_q3_paper_figures.py",
+      "source_sha256": "77dae90f34db713454ab08e1180476991f3a8c805f8bbea9a6965120285069bd",
+      "release_sha256": "77dae90f34db713454ab08e1180476991f3a8c805f8bbea9a6965120285069bd",
+      "changes": []
+    },
+    {
+      "path": "deliverables/make_q3_fixed_qualitative.py",
+      "source_sha256": "e04316914683c670a286425cf796220df84d0c160218bf08d6cadec7d23d7f23",
+      "release_sha256": "3b5b2dab79b3be4fa2ae788c07dd9f1035cf49b9d4a049091ab82a9be267a776",
+      "changes": [
+        "workstation path -> release-root path"
+      ]
+    },
+    {
+      "path": "deliverables/audit_real_annotations.py",
+      "source_sha256": "1aad2c9eab45a810a31e34cfc5d86da5a9c1533b042cbb76ee94da95f0bd6a7e",
+      "release_sha256": "1aad2c9eab45a810a31e34cfc5d86da5a9c1533b042cbb76ee94da95f0bd6a7e",
+      "changes": []
+    },
+    {
+      "path": "deliverables/figures/draw_method_architecture.py",
+      "source_sha256": "25d14eaa495ac68c5affc2543dd13db9e3cee7780dbb272e8aaf0b23b5da5b59",
+      "release_sha256": "25d14eaa495ac68c5affc2543dd13db9e3cee7780dbb272e8aaf0b23b5da5b59",
+      "changes": []
+    },
+    {
+      "path": "deliverables/figures/draw_evaluation_protocol.py",
+      "source_sha256": "a6858a7bb46e95f783fa0f73980e5b6788cd198e150189282d6c643bc7218984",
+      "release_sha256": "a6858a7bb46e95f783fa0f73980e5b6788cd198e150189282d6c643bc7218984",
+      "changes": []
+    },
+    {
+      "path": "deliverables/figure3_split_times_new_roman/redraw_figures.py",
+      "source_sha256": "bddc495c8f6f7f3e161c6f4e49aee41d206d80539ecd8f83e6d52161186f5828",
+      "release_sha256": "bddc495c8f6f7f3e161c6f4e49aee41d206d80539ecd8f83e6d52161186f5828",
+      "changes": []
+    },
+    {
+      "path": "deliverables/figure3_combined_paper/draw_combined_figure.py",
+      "source_sha256": "dcdbd568043f93f2084803e4acf4668885ee064a8e0000ba5158ad4dc7521ba5",
+      "release_sha256": "dcdbd568043f93f2084803e4acf4668885ee064a8e0000ba5158ad4dc7521ba5",
+      "changes": []
+    },
+    {
+      "path": "LICENSE",
+      "source_sha256": "9bea8a5139d7c11f540fbf382c67efc1411705bdd97f1225f903d09e215b5206",
+      "release_sha256": "9bea8a5139d7c11f540fbf382c67efc1411705bdd97f1225f903d09e215b5206",
+      "changes": []
+    },
+    {
+      "path": "implementations/diffusion/run_q3_diffusion_baseline.ps1",
+      "source_sha256": "9625832c49dfcb62281d376c9299c9c01f2a48efbb1527db1202b820a936dd3c",
+      "release_sha256": "3abf7e3872ca43a075e5d3a1c6978049a628d251d251936e7e707d2afe87b179",
+      "changes": [
+        "PowerShell paths -> script root / active Python"
+      ]
+    },
+    {
+      "path": "implementations/diffusion/run_q3_diffusion_multiseed.ps1",
+      "source_sha256": "85d90fdc88b3fe031b9c79823b8953b862c76a4c9a45f0f3bdc15bbc4688a40c",
+      "release_sha256": "9e550234a84b8f2cb286920422960839504b97988d6f4d7cb98f999d888f4519",
+      "changes": [
+        "PowerShell paths -> script root / active Python"
+      ]
+    },
+    {
+      "path": "implementations/diffusion/resume_q3_diffusion_multiseed_metrics.ps1",
+      "source_sha256": "14cbb613877781ed2af0153135e609a1070618015bdac648201642f9503fd924",
+      "release_sha256": "cbc8ac9858a67e754891e1b57e5af198acff4a4a586e37c104370c159c769288",
+      "changes": [
+        "PowerShell paths -> script root / active Python"
+      ]
+    }
+  ],
+  "additional_documentation_and_tools": [
+    ".gitignore",
+    "README.md",
+    "requirements.txt",
+    "docs/DATA.md",
+    "docs/PAPER_CODE_MAP.md",
+    "docs/PROTOCOL.md",
+    "docs/THIRD_PARTY.md",
+    "tools/check_release.py",
+    "docs/PUBLIC_RELEASE.md",
+    "tools/check_supplement.py"
+  ],
+  "publication_update": {
+    "date": "2026-10-15",
+    "updated_source": "deliverables/figures/draw_evaluation_protocol.py",
+    "additional_orchestrators": [
+      "implementations/diffusion/run_q3_diffusion_baseline.ps1",
+      "implementations/diffusion/run_q3_diffusion_multiseed.ps1",
+      "implementations/diffusion/resume_q3_diffusion_multiseed_metrics.ps1"
+    ],
+    "manuscripts_published": false,
+    "training_or_inference_run": false
+  }
+}

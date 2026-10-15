@@ -1,0 +1,87 @@
+[
+  {
+    "name": "DCGAN",
+    "real": "./data/cable_leakfix_train",
+    "fake": "./data/yolo_dataset/images/leakfix/gen_E4_dcgan_leak_5k"
+  },
+  {
+    "name": "WGAN_GP_FM",
+    "real": "./data/cable_leakfix_train",
+    "fake": "./data/yolo_dataset/images/leakfix/gen_E2_wgan_gp_leak_5k"
+  },
+  {
+    "name": "WGAN_GP_DiffAugment",
+    "real": "./data/cable_leakfix_train",
+    "fake": "./data/yolo_dataset/images/leakfix/gen_E2_wgan_gp_da_leak"
+  },
+  {
+    "name": "FastGAN",
+    "real": "./data/cable_leakfix_train",
+    "fake": "./data/yolo_dataset/images/leakfix/gen_FastGAN_leak"
+  },
+  {
+    "name": "TextProjection_noMSES",
+    "real": "./data/cable_leakfix_train",
+    "fake": "./data/yolo_dataset/images/leakfix/gen_E7proj_mses_nosp_leak_5k"
+  },
+  {
+    "name": "ClassProjection_MSES",
+    "real": "./data/cable_leakfix_train",
+    "fake": "./data/yolo_dataset/images/leakfix/gen_E6proj_mses_sp_leak_5k"
+  },
+  {
+    "name": "ClassProjection_noMSES",
+    "real": "./data/cable_leakfix_train",
+    "fake": "./data/yolo_dataset/images/leakfix/gen_E6proj_mses_nosp_leak_5k"
+  },
+  {
+    "name": "TextProjection_MSES",
+    "real": "./data/cable_leakfix_train",
+    "fake": "./data/yolo_dataset/images/leakfix/gen_E7proj_mses_sp_leak_5k"
+  },
+  {
+    "name": "TextProjection_noMSES_seed1",
+    "real": "./data/cable_leakfix_train",
+    "fake": "./data/yolo_dataset/images/leakfix/gen_e7proj_mses_nosp_leak_s1_5k"
+  },
+  {
+    "name": "TextProjection_noMSES_seed2",
+    "real": "./data/cable_leakfix_train",
+    "fake": "./data/yolo_dataset/images/leakfix/gen_e7proj_mses_nosp_leak_s2_5k"
+  },
+  {
+    "name": "ClassProjection_noMSES_seed1",
+    "real": "./data/cable_leakfix_train",
+    "fake": "./data/yolo_dataset/images/leakfix/gen_e6proj_mses_nosp_leak_s1_5k"
+  },
+  {
+    "name": "ClassProjection_noMSES_seed2",
+    "real": "./data/cable_leakfix_train",
+    "fake": "./data/yolo_dataset/images/leakfix/gen_e6proj_mses_nosp_leak_s2_5k"
+  },
+  {
+    "name": "TextProjection_MSES_seed1",
+    "real": "./data/cable_leakfix_train",
+    "fake": "./data/yolo_dataset/images/leakfix/gen_e7proj_mses_sp_leak_s1_5k"
+  },
+  {
+    "name": "TextProjection_MSES_seed2",
+    "real": "./data/cable_leakfix_train",
+    "fake": "./data/yolo_dataset/images/leakfix/gen_e7proj_mses_sp_leak_s2_5k"
+  },
+  {
+    "name": "ClassConditional_Latent_DDPM",
+    "real": "./data/cable_leakfix_train",
+    "fake": "./data/yolo_dataset/images/leakfix/gen_Diffusion_LDM_s42_5k"
+  },
+  {
+    "name": "ClassConditional_Latent_DDPM_seed1",
+    "real": "./data/cable_leakfix_train",
+    "fake": "./data/yolo_dataset/images/leakfix/gen_Diffusion_LDM_s1_5k"
+  },
+  {
+    "name": "ClassConditional_Latent_DDPM_seed2",
+    "real": "./data/cable_leakfix_train",
+    "fake": "./data/yolo_dataset/images/leakfix/gen_Diffusion_LDM_s2_5k"
+  }
+]

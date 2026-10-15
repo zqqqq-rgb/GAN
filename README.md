@@ -1,38 +1,77 @@
-# GAN paper experiment code
+# GAN paper: reproducible experiment code
 
-工业缺陷生成增强论文的代码整理版：文本条件投影 WGAN-GP、多尺度边缘统计匹配（MSES）、对照模型、固定预算检测和 NEU-DET / GC10-DET 外部验证。
+这是工业缺陷生成增强研究的代码整理版。主方法为文本条件投影 WGAN-GP 与多尺度边缘统计匹配（MSES），包含类别条件对照、固定预算检测、统计分析与 NEU-DET / GC10-DET 外部验证。
 
-## Download and use
+本仓库整理的是**论文最终严格协议及其依赖代码**，不是工作区的整体备份。历史模型作为依赖或生成指标对照保留，不代表全部历史实验均进入最终检测结论。
 
-完整源码位于本仓库的 [gan_paper_github_release.zip](gan_paper_github_release.zip)。网页上传采用压缩包发布，以保留源码原有目录结构。请先下载并解压；不要在仓库根目录直接执行训练命令。
+## Public reproducibility records
 
-解压后有 67 个文件，其中 52 个 Python 文件，包含以下内容：
+The code is directly browsable in this repository. [MVA Online Resource 1](reproducibility/MVA_Online_Resource_1.zip) contains 361 files, including archived numerical outcomes, de-identified manifests and 320 strict detector configuration snapshots. The [checksum index](reproducibility/INDEX.json) and [archive description](reproducibility/ARCHIVE.json) make the package auditable. See [public release scope](docs/PUBLIC_RELEASE.md) for exclusions and verification. The author has requested that Chinese and English manuscripts remain private.
 
-- `implementations/wgan_gp/`：GAN 训练、生成、MSES 和生成指标。
-- `implementations/diffusion/`：条件潜空间扩散扩展。
-- `implementations/yolov8_det/scripts/`：数据准备、教师伪标签、固定预算检测、配对统计及外部验证。
-- `deliverables/`：标注审计与论文图表的源代码。
-- `docs/`：实验协议、论文与代码对应表、数据准备及第三方依赖说明。
-- `tools/check_release.py`：不启动 GPU 训练的代码发布检查。
+## Included / excluded
 
-使用前请阅读压缩包内的 `README.md`、`docs/PROTOCOL.md` 和 `docs/DATA.md`。压缩包包含依赖版本记录及 `release_manifest.json`，后者记录源文件与发布文件的 SHA-256。
+- Included: GAN training/sampling, latent diffusion extension, pseudo-labeling, fixed-Q detection, external validation, statistical analyses, annotation/protocol audits, figure source, configurations and dependencies.
+- Excluded: raw/annotated images, original private image names, generated pools, model weights, training logs, Word manuscripts, manuscript-editing scripts, third-party full-text papers, credentials and caches. De-identified fixed memberships are available in the supplement; they are not original private filename lists.
+- Original experimental source files were not modified. Only release copies received path/interpreter portability changes and a train-only default for the two core GAN scripts. `release_manifest.json` records source/release hashes and changes.
 
-## Availability and interpretation
+This release includes source code and a de-identified reproducibility archive. Manuscripts remain private. It is not a claim of complete data availability or one-click numerical reproduction. Exact reproduction needs the licensed datasets, archived fixed split/selection manifests and original checkpoints. Do not create a new random split and call it the published split.
 
-本次为代码发布，不包含原始或生成图像、私有图像名称与划分清单、模型权重、训练日志、论文文件或凭据。精确复现实验数值仍需合法获取的数据、固定实验清单及原始检查点；本代码包没有在全新环境中重新完成端到端训练。
+## Code layout
 
-真实图重采样对照同时匹配额外训练记录/步数并改变经验样本权重，不能解释为纯优化步数干预。生成指标与教师接收率不能替代检测收益或语义可控性证据，应以配对分析及 Holm 校正后的结论为准。
+| Directory | Purpose |
+|---|---|
+| `implementations/wgan_gp/` | projection GANs, MSES, generation, metrics, baseline wrappers |
+| `implementations/diffusion/` | post-hoc class-conditional latent DDPM/DDIM extension |
+| `implementations/yolov8_det/scripts/` | preparation, teacher labels, detection, paired statistics |
+| `deliverables/` | rule-annotation audit, quantitative/qualitative figure source |
+| `docs/` | paper-to-code map, protocol, data preparation, release limitations |
+| `tools/` | non-training release checks |
 
-## Release checks
+## Environment
 
-本地检查通过：52 个 Python 文件语法检查、58 个来源文件哈希核对、固定检测协议常量检查，以及不应发布的文件类型检查。这些是代码整理检查，不代表训练结果重新复现。
+The experiments used Windows 11, Python 3.13.5, PyTorch 2.6.0 + CUDA 12.4, torchvision 0.21.0, Ultralytics 8.4.129 and an RTX 4070 Laptop GPU (8 GB). `requirements.txt` records observed library versions, not a guarantee that every platform has compatible wheels. Install platform-appropriate PyTorch first, then install the remaining dependencies. OpenAI CLIP and model dependencies may download separately under their own terms.
 
-压缩包 SHA-256：
+Activate the intended Python environment. Detector subprocesses now use that interpreter and its site-packages rather than a workstation-specific Anaconda path.
 
-```text
-113bd18d4445333cde262d0a43abcaf67e50a75b7e607634ec8dd653d58a23a0
+```bash
+python -m pip install -r requirements.txt
+python tools/check_release.py
 ```
+
+`check_release.py` checks syntax, release hashes, basic protocol constants and excluded-file patterns without importing GPU training scripts or launching training. This release has not been end-to-end retrained on a clean machine.
+
+## Read before running
+
+1. Follow [data preparation](docs/DATA.md) and restore the fixed experiment manifests through an authorized channel.
+2. Read [protocol and seed definitions](docs/PROTOCOL.md).
+3. Find each experiment in [paper-to-code map](docs/PAPER_CODE_MAP.md).
+4. Launch only one GPU task at a time on an 8 GB GPU. Use separate output directories for reruns.
+5. Inspect preparation scripts before running: some replace existing generated folders or rewrite splits. Do not run historical `build_dataset.py` as the final fixed-split pipeline; it is retained as the source of the rule-box function used by the annotation audit.
+
+Example core GAN training: run from `implementations/wgan_gp/` so its relative output paths stay consistent.
+
+```bash
+python cwgan_gp_clip_proj.py --data_path ../../data/cable_leakfix_train --n_epochs 500 --batch_size 4 --lambda_sp 5 --lambda_fm 50 --seed 42 --tag e7proj_mses_sp_leak
+```
+
+For text/no-MSES change `--lambda_sp` to `0`. For class projection use `cwgan_gp_proj.py`. The archived protocol, not an inferred default, determines the experiment tag, source dataset, sampling seed and candidate count. Generation on an 8 GB GPU should pass `--batch_size 4` explicitly.
+
+Example main fixed-Q detector pipeline, **after** the real-only teacher, fixed training/test lists, accepted synthetic pools and labels have been prepared:
+
+```bash
+python implementations/yolov8_det/scripts/q3_fixedq_pipeline.py all --q 300 --seeds 42 1 2 3 4 5 6 7 8 9 --groups baseline_stepmatched E5_tradit FastGAN copypaste E6proj_mses_nosp E6proj_mses_sp E7proj_mses_nosp E7proj_mses_sp Diffusion_LDM Diffusion_LDM_gs1 Diffusion_LDM_gs2 --strict-resume
+```
+
+Statistical scripts consume archived JSON results under the dataset directories. Some execute their analysis immediately when launched; do not import them just to inspect their functions. Image-level bootstrap additionally requires checkpoints and per-image predictions and may run GPU inference; it is not a code-only smoke test.
+
+## Interpretation boundaries
+
+- Real-image resampling matches extra training records/steps **and changes empirical image weights**; it is not a pure optimization-step intervention.
+- Improved FID or teacher acceptance is not proof of improved detection or semantic controllability.
+- Report the Holm-adjusted comparisons. Non-significance is not proof of zero effect; do not restore superseded historical gains.
+- Absolute mAP gains are percentage points; relative gains are percentages. Original analysis JSON typically stores absolute differences. Do not change units without defining the conversion and bootstrap statistic.
+- GC10's selected pseudo-labeled subset lacks teacher boxes for three classes. This is a coverage limitation of generation plus teacher filtering, not proof that the generator cannot produce those classes.
 
 ## Attribution
 
-保留上游 PyTorch-GAN 的 MIT 声明，见 `LICENSE`。外部依赖、预训练权重及数据集遵循各自的许可；详见压缩包内 `docs/THIRD_PARTY.md`。本代码发布不授予数据集再分发权限。
+The repository retains the upstream PyTorch-GAN MIT notice in `LICENSE`. External dependencies and pretrained weights remain subject to their own licenses; see [third-party notes](docs/THIRD_PARTY.md). Dataset redistribution is not authorized by this code release.

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "E7proj_MSES_SP5",
+    "real": "./data/cable_leakfix_train",
+    "fake": "./data/yolo_dataset/images/leakfix/gen_E7proj_mses_sp_leak_5k"
+  },
+  {
+    "name": "E7proj_MSES_noSP",
+    "real": "./data/cable_leakfix_train",
+    "fake": "./data/yolo_dataset/images/leakfix/gen_E7proj_mses_nosp_leak_5k"
+  },
+  {
+    "name": "E6proj_MSES_SP5",
+    "real": "./data/cable_leakfix_train",
+    "fake": "./data/yolo_dataset/images/leakfix/gen_E6proj_mses_sp_leak_5k"
+  }
+]

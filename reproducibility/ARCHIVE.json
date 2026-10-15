@@ -1,0 +1,9 @@
+{
+  "path": "reproducibility/MVA_Online_Resource_1.zip",
+  "sha256": "2af2a99ec2c2f9243af3facc2028eaf5fce2c85465af26b9e3b3950ac88b8c40",
+  "bytes": 6209518,
+  "file_count": 361,
+  "strict_detector_configuration_snapshots": 320,
+  "manuscripts_included": false,
+  "raw_images_or_weights_included": false
+}

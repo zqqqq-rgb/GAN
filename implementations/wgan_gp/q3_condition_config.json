@@ -1,0 +1,18 @@
+[
+  {
+    "name": "TextProjection_noMSES",
+    "root": "./data/yolo_dataset/images/leakfix/gen_E7proj_mses_nosp_leak_5k"
+  },
+  {
+    "name": "ClassProjection_MSES",
+    "root": "./data/yolo_dataset/images/leakfix/gen_E6proj_mses_sp_leak_5k"
+  },
+  {
+    "name": "ClassProjection_noMSES",
+    "root": "./data/yolo_dataset/images/leakfix/gen_E6proj_mses_nosp_leak_5k"
+  },
+  {
+    "name": "TextProjection_MSES",
+    "root": "./data/yolo_dataset/images/leakfix/gen_E7proj_mses_sp_leak_5k"
+  }
+]
