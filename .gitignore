@@ -44,6 +44,5 @@ node_modules/
 
 # Keep small JSON experiment configs and release manifests tracked.
 
-# Explicitly approved public archives; all other ZIPs remain ignored.
-!/gan_paper_github_release.zip
+# Keep the numerical supplement; source archives are downloaded from GitHub.
 !/reproducibility/MVA_Online_Resource_1.zip

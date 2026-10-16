@@ -27,6 +27,21 @@ This release includes source code and a de-identified reproducibility archive. M
 | `docs/` | paper-to-code map, protocol, data preparation, release limitations |
 | `tools/` | non-training release checks |
 
+## Repository organization
+
+Use the browsable source directories as the canonical code copy. Download the current repository through **Code → Download ZIP**, or clone it:
+
+```bash
+git clone https://github.com/zqqqq-rgb/GAN.git
+cd GAN
+```
+
+The separately maintained root-level code ZIP was removed because all 72 of its members already existed identically in the source tree. Earlier versions remain recoverable from Git history. The archive in `reproducibility/` is retained: it contains experiment records, not a duplicate source release.
+
+Text/class projection, with/without MSES, dataset-specific detection pipelines, and individual/combined plot variants serve different experiments or outputs. They are not interchangeable duplicate files and remain separate. Keep the existing protocol, manifest paths and dependency relationships when adding code.
+
+`.gitattributes` keeps text files in LF form on checkout so the published source hashes remain verifiable on Windows as well as other platforms. ZIP archives are treated as binary.
+
 ## Environment
 
 The experiments used Windows 11, Python 3.13.5, PyTorch 2.6.0 + CUDA 12.4, torchvision 0.21.0, Ultralytics 8.4.129 and an RTX 4070 Laptop GPU (8 GB). `requirements.txt` records observed library versions, not a guarantee that every platform has compatible wheels. Install platform-appropriate PyTorch first, then install the remaining dependencies. OpenAI CLIP and model dependencies may download separately under their own terms.
@@ -36,6 +51,7 @@ Activate the intended Python environment. Detector subprocesses now use that int
 ```bash
 python -m pip install -r requirements.txt
 python tools/check_release.py
+python tools/check_supplement.py
 ```
 
 `check_release.py` checks syntax, release hashes, basic protocol constants and excluded-file patterns without importing GPU training scripts or launching training. This release has not been end-to-end retrained on a clean machine.

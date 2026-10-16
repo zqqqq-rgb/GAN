@@ -18,7 +18,7 @@ Not included:
 
 The repository is not a full backup of the author's workstation. Historical and obsolete experiment pipelines are not silently substituted for the final protocol. Original numerical records in the reproducibility archive are preserved, including negative and nonsignificant results. Privacy screening is a pattern-based check, not a guarantee of anonymization against every possible external linkage.
 
-The original compressed code release remains available at the repository root. Source files are now also directly browsable. This is not an end-to-end retraining or a claim that code-only access is sufficient to reproduce every numerical result. Consult `DATA.md`, `PROTOCOL.md` and `THIRD_PARTY.md` before running experiments.
+Source files are directly browsable and are the canonical code copy. The redundant root-level code ZIP was removed after all 72 archive members were verified as byte-identical to the source tree. Use GitHub's **Code → Download ZIP** or `git clone` for the current version; the former ZIP remains recoverable from Git history. The separate numerical reproducibility archive is retained unchanged. This is not an end-to-end retraining or a claim that code-only access is sufficient to reproduce every numerical result. Consult `DATA.md`, `PROTOCOL.md` and `THIRD_PARTY.md` before running experiments.
 
 ## Verification without training
 

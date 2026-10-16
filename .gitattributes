@@ -1,0 +1,5 @@
+# Match published source checksums on every platform, including Windows.
+* text=auto eol=lf
+
+# Never apply text or end-of-line conversion to numerical archive bytes.
+*.zip -text
